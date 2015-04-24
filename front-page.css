@@ -1,0 +1,836 @@
+﻿{}/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+/***************************************VERY LARGE SCREEN ABOVE - LARGE SCREENS BELOW*******************************************/
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+@media screen and (min-width: 1620px) {
+
+    /**********************************************SECOND HEADLINE BELOW************************************************************/
+
+    .SecondHeadSideLines {
+        height: 36px;
+        /*background-color: lawngreen;*/
+    }
+
+    .SecondHeadSide {
+        /*background-color: lawngreen;*/
+        height: 36px;
+        line-height: 36px;
+        font-size: 36px;
+        font-family: Lato-Thin, sans-serif;
+    }
+
+    /**********************************************SPACE BELOW TITLE***************************************************************/
+
+    #belowTitle{
+        height:45px;
+        line-height: 45px;
+        /*background-color: red;*/
+    }
+
+    /**********************************************DATE BOX BELOW******************************************************************/
+
+    .DateBox {
+        height: 320px;
+        line-height: 320px;
+    }
+
+    #centeredDateBox {
+        width: 420px;
+        height: 160px;
+        top: 85px;
+    }
+
+    #row0Date {
+        height: 28px;
+        line-height: 28px;
+        /*background-color:red;*/
+    }
+
+    #row1Date {
+        height: 40px;
+        line-height: 40px;
+         /*background-color:green;*/
+    }
+
+    #col1Date {
+        height: 40px;
+        line-height: 40px;
+    }
+
+    #Headline a {
+        font-size: 27pt;
+        /*background-color:red;*/
+        width:380px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    #row2Date {
+        height: 10px;
+        line-height: 10px;
+        /*background-color:blue;*/
+    }
+
+    #col2Date {
+        height: 10px;
+        line-height: 10px;
+    }
+
+    .DatelineCont {
+        height: 10px;
+        /*background-color: lawngreen;*/
+        width:395px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    #row23Date {
+        height: 5px;
+        line-height: 5px;
+        /*background-color:magenta;*/
+    }
+
+    #row3Date {
+        height: 30px;
+        line-height: 30px;
+        /*background-color:cyan;*/
+    }
+
+    #col3Date {
+        height: 30px;
+        line-height: 30px;
+    }
+
+    #Date {
+        font-size: 18pt;
+        /*background-color:red;*/
+    }
+
+    .row34Date {
+        height: 5px;
+        line-height: 5px;
+        /*background-color:yellow;*/
+    }
+
+    #row4Date {
+        height: 18px;
+        line-height: 18px;
+        /*background-color:grey;*/
+    }
+
+    #col4Date {
+        height: 18px;
+        line-height: 18px;
+    }
+
+    #Comment {
+        font-size: 10pt;
+        /*background-color: yellow;*/
+    }
+
+    #row5Date {
+        height: 19px;
+        line-height: 19px;
+        /*background-color:red;*/
+    }
+
+    /**********************************************FEATURES-THUMBNAILS-BELOW************************************************************/
+
+    #graphicBorder, #illusBorder, #aboutBorder, #photographyBorder {
+        padding-bottom: calc(100% - 22px);
+        margin-bottom: calc((100% - 21px)*(-1));
+    }
+
+    #filmAnBorder {
+        padding-bottom: calc(50% - 31px);
+        margin-bottom: calc((50% - 30px)*(-1));
+    }
+
+    #graphDes, #illus, #photo, #about{
+        padding-bottom: calc(100% - 22px);
+        margin-bottom: -70px;
+    }
+
+    #filan{
+        padding-bottom: calc(50% - 31px);
+    }
+
+    #featuredBoxGraph, #featuredBoxIllus, #featuredBoxPhotography, #featuredBoxAbout, #featuredBoxFilmAn {
+        width: 100%;
+        height: 70px;
+    }
+
+    #featuredBoxAbout {
+        margin-bottom: -70px;
+    }
+
+    #featuredBoxFilmAn {
+        margin-bottom: -70px;
+        border-right: solid 1px rgba(54, 54, 54, 0.5);
+        position: relative;
+        z-index: 1;
+    }
+
+    .wFeatured {
+        height: 70px;
+        line-height: 70px;
+    }
+
+    #wGD, #wIL, #wPH, #wAB, #wFA {
+        font-size: 30pt;
+        letter-spacing: 8px;
+        margin-left:24px;
+        text-align: left;
+    }
+
+    #colGD {
+        padding-right: 7px;
+    }
+
+    #colIL {
+        padding-right: 11px;
+        padding-left: 11px;
+    }
+
+    #colPH, #colAB {
+        padding-left: 7px;
+    }
+
+    #colFA {
+        padding-right: 11px;
+    }
+
+
+}
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+/******************************************************LARGE SCREENS BELOW******************************************************/
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+@media screen and (min-width: 992px) and (max-width:1619px) {
+
+    /**********************************************SECOND HEADLINE BELOW***********************************************************/
+
+    .SecondHeadSideLines {
+        height: 36px;
+        /*background-color: lawngreen;*/
+    }
+
+    .SecondHeadSide {
+        /*background-color: lawngreen;*/
+        height: 36px;
+        line-height: 36px;
+        font-size: 36px;
+        font-family: Lato-Thin, sans-serif;
+    }
+
+    /**********************************************SPACE BELOW TITLE****************************************************************/
+    #belowTitle{
+        height:45px;
+        line-height: 45px;
+        /*background-color: red;*/
+    }
+    /**********************************************DATE BOX BELOW*******************************************************************/
+
+    .DateBox {
+        height: 320px;
+        line-height: 320px;
+    }
+
+    #centeredDateBox {
+        width: 420px;
+        height: 160px;
+        top: 85px;
+    }
+
+    #row0Date {
+        height: 28px;
+        line-height: 28px;
+        /*background-color:red;*/
+    }
+
+    #row1Date {
+        height: 40px;
+        line-height: 40px;
+        /*background-color:green;*/
+    }
+
+    #col1Date {
+        height: 40px;
+        line-height: 40px;
+    }
+
+    #Headline a {
+        font-size: 27pt;
+        /*background-color:red;*/
+        width:380px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    #row2Date {
+        height: 10px;
+        line-height: 10px;
+        /*background-color:blue;*/
+    }
+
+    #col2Date {
+        height: 10px;
+        line-height: 10px;
+    }
+
+    .DatelineCont {
+        height: 10px;
+        /*background-color: lawngreen;*/
+        width:395px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    #row23Date {
+        height: 5px;
+        line-height: 5px;
+        /*background-color:magenta;*/
+    }
+
+    #row3Date {
+        height: 30px;
+        line-height: 30px;
+        /*background-color:cyan;*/
+    }
+
+    #col3Date {
+        height: 30px;
+        line-height: 30px;
+    }
+
+    #Date {
+        font-size: 18pt;
+        /*background-color:red;*/
+    }
+
+    .row34Date {
+        height: 5px;
+        line-height: 5px;
+        /*background-color:yellow;*/
+    }
+
+    #row4Date {
+        height: 18px;
+        line-height: 18px;
+        /*background-color:grey;*/
+    }
+
+    #col4Date {
+        height: 18px;
+        line-height: 18px;
+    }
+
+    #Comment {
+        font-size: 10pt;
+        /*background-color: yellow;*/
+    }
+
+    #row5Date {
+        height: 19px;
+        line-height: 19px;
+        /*background-color:red;*/
+    }
+
+    /**********************************************FEATURES-THUMBNAILS-BELOW************************************************************/
+
+    #graphicBorder, #illusBorder, #aboutBorder, #photographyBorder {
+        padding-bottom: calc(100% - 22px);
+        margin-bottom: calc((100% - 21px)*(-1));
+    }
+    #filmAnBorder {
+        padding-bottom: calc(50% - 31px);
+        margin-bottom: calc((50% - 30px)*(-1));
+    }
+
+    #graphDes, #illus, #photo, #about{
+        padding-bottom: calc(100% - 22px);
+        margin-bottom: -70px;
+    }
+    #filan{
+        padding-bottom: calc(50% - 31px);
+    }
+
+    #featuredBoxGraph, #featuredBoxIllus, #featuredBoxPhotography, #featuredBoxAbout, #featuredBoxFilmAn {
+        width: 100%;
+        height: 70px;
+    }
+    #featuredBoxAbout {
+        margin-bottom: -70px;
+    }
+    #featuredBoxFilmAn {
+        margin-bottom: -70px;
+        border-right: solid 1px rgba(54, 54, 54, 0.5);
+        position: relative;
+        z-index: 1;
+    }
+    .wFeatured {
+        height: 70px;
+        line-height: 70px;
+    }
+
+    #wGD, #wIL, #wPH, #wAB, #wFA {
+        font-size: 16pt;
+        letter-spacing: 4px;
+        margin-left:24px;
+        text-align: left;
+    }
+
+    #colGD {
+        padding-right: 7px;
+    }
+
+    #colIL {
+        padding-right: 11px;
+        padding-left: 11px;
+    }
+
+    #colPH, #colAB {
+        padding-left: 7px;
+    }
+
+    #colFA {
+        padding-right: 11px;
+    }
+
+
+}
+
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+/*************************************LARGE SCREENS ABOVE - TABLETS BELOW*******************************************************/
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    /**********************************************SECOND HEADLINE BELOW************************************************************/
+
+    .SecondHeadSideLines {
+        height: 36px;
+        /*background-color: lawngreen;*/
+    }
+
+    .SecondHeadSide {
+        /*background-color: lawngreen;*/
+        height: 36px;
+        line-height: 36px;
+        font-size: 36px;
+        font-family: Lato-Thin, sans-serif;
+    }
+
+    /**********************************************SPACE BELOW TITLE********************************************************************/
+
+    #belowTitle{
+        height:45px;
+        line-height: 45px;
+        /*background-color: red;*/
+    }
+
+    /**********************************************FEATURES-THUMBNAILS-BELOW************************************************************/
+
+    #graphicBorder, #illusBorder, #aboutBorder, #filmAnBorder {
+        padding-bottom: 100%;
+        margin-bottom: calc(-100% - 2px);
+    }
+    #photographyBorder {
+        padding-bottom: 50%;
+        margin-bottom: calc(-50% - 2px);
+    }
+
+    #graphDes, #illus, #filan, #about{
+        padding-bottom: calc(100% + 2px);
+    }
+    #graphDes, #illus, #filan{
+        margin-bottom: -70px;
+    }
+    #photo{
+        padding-bottom: calc(50% + 2px);
+        margin-bottom: -70px;
+    }
+
+    #featuredBoxGraph, #featuredBoxIllus, #featuredBoxFilmAn, #featuredBoxAbout, #featuredBoxPhotography {
+        height: 70px;
+    }
+    #featuredBoxFilmAn{
+        margin-top: calc(100% + 2px);
+        margin-bottom: calc(-100% - 2px);
+    }
+    #featuredBoxAbout {
+        margin-top: calc(100% + 2px);
+        margin-bottom: calc(-100% - 2px);
+    }
+    #featuredBoxPhotography {
+        position: relative;
+        z-index: 1;
+        margin-bottom: -70px;
+    }
+
+    .wFeatured {
+        font-size: 22pt;
+        height: 70px;
+        line-height: 70px;
+    }
+
+    #wGD, #wIL, #wPH, #wAB, #wFA{
+        text-align: center;
+    }
+#colGD{
+    padding-right: 10px;
+}
+#colIL{
+    padding-left: 10px;
+}
+#colFA{
+    padding-right: 10px;
+}
+#colAB{
+    padding-left: 10px;
+}
+
+
+}
+
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+/*************************************TABLETS ABOVE - EXTRA SMALL SCREENS BELOW*************************************************/
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+
+@media screen and (min-width: 536px) and (max-width: 767px) {
+
+    /**********************************************SECOND HEADLINE BELOW************************************************************/
+
+    #deskHomeLeft{
+        padding-left: 0;
+    }
+    #deskHomeRight{
+        padding-right: 0;
+    }
+    .SecondHeadSideLines {
+        height: 18pt;
+        /*background-color: lawngreen;*/
+    }
+
+    .SecondHeadSide {
+        /*background-color: lawngreen;*/
+        height: 18pt;
+        line-height: 18pt;
+        font-size: 18pt;
+        font-family: Lato-Light, sans-serif;
+    }
+
+    /**********************************************SPACE BELOW TITLE****************************************************************/
+
+    #belowTitle{
+        height: 35px;
+        line-height: 35px;
+        /*background-color: red;*/
+    }
+
+    /**********************************************FEATURES-THUMBNAILS-BELOW************************************************************/
+
+    #graphicBorder, #illusBorder, #aboutBorder, #photographyBorder, #filmAnBorder {
+        padding-bottom: 50%;
+        margin-bottom: calc(-50% - 1.2px);
+    }
+
+    #graphDes, #illus, #photo, #filan, #about{
+        padding-bottom: 50%;
+    }
+    #graphDes, #illus, #photo{
+        margin-bottom: calc(-25% - 35px);
+    }
+    #filan, #about{
+        margin-bottom: 0;
+    }
+
+    #featuredBoxGraph, #featuredBoxIllus, #featuredBoxPhotography, #featuredBoxFilmAn, #featuredBoxAbout {
+        height: 70px;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    #featuredBoxGraph, #featuredBoxIllus, #featuredBoxPhotography{
+        margin-bottom: calc(25% - 35px);
+    }
+    #featuredBoxFilmAn, #featuredBoxAbout{
+        margin-bottom: calc(-25% - 35px);/*calc(-50% + 35px);*//*it was -70px*/
+        margin-top: calc(25% - 35px);
+    }
+    .wFeatured {
+        font-size: 22pt;
+        height: 70px;
+        line-height: 70px;
+    }
+    .featuredLetter{
+        font-size:36pt;
+        vertical-align: bottom;
+    }
+    #wGD, #wIL, #wPH, #wAB, #wFA   {
+        text-align: center;
+    }
+
+
+}
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+/*************************************EXTRA SMALL SCREENS ABOVE - MOBILES BELOW*************************************************/
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+
+@media screen and (max-width: 535px) {
+
+    /**********************************************SECOND HEADLINE BELOW************************************************************/
+
+    #deskHomeLeft{
+        padding-left:0;
+    }
+    #deskHomeRight{
+        padding-right:0;
+    }
+    .SecondHeadSideLines {
+        height: 18pt;
+        /*background-color: lawngreen;*/
+    }
+
+    .SecondHeadSide {
+        /*background-color: lawngreen;*/
+        height: 18pt;
+        line-height: 18pt;
+        font-size: 18pt;
+        font-family: Lato-Light, sans-serif;
+    }
+    /**********************************************SPACE BELOW TITLE*********************************************************************/
+
+    #belowTitle{
+        height:35px;
+        line-height: 35px;
+        /*background-color: red;*/
+    }
+
+    /**********************************************FEATURES-THUMBNAILS-BELOW************************************************************/
+
+    #graphicBorder, #illusBorder, #aboutBorder, #photographyBorder, #filmAnBorder {
+        padding-bottom: 50%;
+        margin-bottom: calc(-50% - 1.2px);
+    }
+
+
+    #graphDes, #illus, #photo, #filan, #about{
+        padding-bottom: 50%;
+    }
+
+    #graphDes, #illus, #photo{
+        margin-bottom: calc(-25% - 35px);
+    }
+
+    #filan, #about{
+        margin-bottom: 0;
+    }
+
+    #featuredBoxGraph, #featuredBoxIllus, #featuredBoxPhotography, #featuredBoxFilmAn, #featuredBoxAbout {
+        height: 70px;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    #featuredBoxGraph, #featuredBoxIllus, #featuredBoxPhotography{
+        margin-bottom: calc(25% - 35px);
+    }
+
+    #featuredBoxFilmAn, #featuredBoxAbout{
+        margin-bottom: calc(-25% - 35px);
+        margin-top: calc(25% - 35px);
+    }
+
+    .wFeatured {
+        font-size: 12pt;
+        height: 70px;
+        line-height: 70px;
+    }
+
+    .featuredLetter{
+        font-size:22pt;
+        vertical-align: bottom;
+    }
+
+    #wGD, #wIL, #wPH, #wAB, #wFA   {
+        text-align: center;
+    }
+
+
+}
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+/***********************************************GENERAL CSS BELOW***************************************************************/
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+
+/**********************************************SECOND HEADLINE BELOW************************************************************/
+
+#deskHomeCent {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.SecondHeadSideline {
+    line-height: 0;
+    border-bottom: 1px solid #990000;
+    top: 50%;
+    position: relative;
+}
+
+/**********************************************DATE BOX BELOW*******************************************************************/
+
+.DateBox {
+    background-image: url(../img/sample1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid #000000;
+}
+
+#centeredDateBox {
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+#col1Date {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#Headline a {
+    font-family: Lato-Light, sans-serif;
+    color:#333333;
+    text-decoration:none;
+}
+
+#Headline a:hover{
+    color:#990000;
+    text-decoration:none;
+}
+
+#col2Date {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.boxDateline {
+    margin-left: auto;
+    margin-right: auto;
+    width: 93%;
+    line-height: 0;
+    border-bottom: 1px solid #990000;
+    top: 50%;
+    position: relative;
+}
+
+#col3Date {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#Date {
+    font-family: Lato-Light, sans-serif;
+    font-size: 18pt;
+    text-transform: uppercase;
+    /*background-color:red;*/
+}
+
+#col4Date {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#Comment {
+    font-family: Lato-Regular, sans-serif;
+}
+
+/**********************************************FEATURES-THUMBNAILS-BELOW************************************************************/
+.featureBorders{
+    border: solid 1px #000000;
+    position: relative;
+    z-index: 2;
+}
+
+.boxes{
+    background-color: rgba(255, 255, 255, 0.6);
+    position: relative;
+    z-index: 1;
+    transition: background-color 1s;
+    -webkit-transition: background-color 1s;
+}
+
+.wFeatured {
+    font-family: Lato-Light, sans-serif;
+    text-transform: uppercase;
+    color:#333333;
+    transition: color 1s;
+    -webkit-transition: color 1s;
+}
+
+.featuredLetter{
+    color:#990000;
+    transition: color 1s;
+    -webkit-transition: color 1s;
+    /*-webkit-font-smoothing: subpixel-antialiased;*/
+}
+
+
+.featureLink {
+    color: #333333;
+    text-decoration: none;
+    /*-webkit-font-smoothing: subpixel-antialiased;*/
+}
+
+.featureLink:hover {
+    text-decoration: none;
+}
+
+.featureLink:hover .wFeatured {
+    color:#fafafa;
+}
+
+.featureLink:hover .featuredLetter {
+    color:#CC0000;
+}
+
+.featureLink:hover .boxes{
+    background-color:rgba(0, 0, 0, 0.6);
+}
+
+.featureLink:hover .fetPicture{
+    filter:grayscale(100%);
+    -webkit-filter:grayscale(100%);
+}
+
+.featureLink:focus{
+    color: #333333;
+    text-decoration: none;
+}
+
+#about {
+    background-image: url(wp-content/themes/RuiYunJiang-Portfolio/img/sample6.jpg);
+}
+
+.fetPicture{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: filter 1s;
+    -webkit-transition: -webkit-filter 1s;
+}
+

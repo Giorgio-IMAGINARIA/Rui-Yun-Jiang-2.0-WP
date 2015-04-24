@@ -1,0 +1,540 @@
+﻿/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+/***************************************VERY LARGE SCREEN ABOVE - LARGE SCREENS BELOW*******************************************/
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+@media screen and (min-width: 1620px) {
+
+    /**********************************************TOP LOGO BELOW*******************************************************************/
+    .boxLogoTop {
+        height: 410px;
+        line-height: 410px;
+        background-size:625px 410px;
+        background-position: 50% 62%;
+        margin-bottom:-90px;
+    }
+
+    /**********************************************TOP MENU BELOW*******************************************************************/
+    .boxMainHead {
+        height: 160px;
+        line-height: 160px;
+    }
+
+    #row1 {
+        height: 52px;
+        line-height: 52px;
+        /*background-color:red;*/
+
+    }
+
+    #row2 {/*Portfolio*/
+        height: 24px;
+        line-height: 24px;
+    }
+
+    #row3 {
+        height: 25px;
+        line-height: 25px;
+        /*background-color:aquamarine;*/
+    }
+
+
+    #row4 {/*profile&contact*/
+        height: 24px;
+        line-height: 24px;
+    }
+
+    #row5 {
+        height: 35px;
+        line-height: 35px;
+        /*background-color:aquamarine;*/
+    }
+
+    .colmn1 {
+        width: 6px;
+    }
+
+    .colmn2 {/*profile*/
+        width: 114px;
+    }
+    .colmn3 {
+        width: 74px;
+    }
+    .colmn4 {/*contact*/
+        width: 134px;
+    }
+    .colmn5 {
+        width: 9px;
+    }
+    .colmn6 {/*portfolio*/
+        width: 161px;
+    }
+    .colmn7 {
+        width: 12px;
+    }
+    .colmn8 {
+        width: 15px;
+    }
+    .colmn9 {
+        width: 15px;
+    }
+
+    #row4 > .colmn2:hover{/*profile*/
+        background-image:url(img/MainTitleH-Profile.png);
+        /*opacity: 0.6;*/
+    }
+
+    #row4 > .colmn4:hover{/*contact*/
+        background-image:url(img/MainTitleH-Contact.png);
+        /*opacity: 0.6;*/
+    }
+    #row2 > .colmn6:hover{/*portfolio*/
+        background-image:url(img/MainTitleH-Portfolio.png);
+        /*opacity: 0.6;*/
+    }
+    #topMenu {
+        height: 160px;
+        width: 540px;
+        line-height: 160px;
+        /*border:solid 1px black;*/
+    }
+
+    /**********************************************SPACE BETWEEN TOP MENU AND TITLE*************************************************/
+
+    #betweenTopMenuTitle{
+        height:45px;
+        line-height: 45px;
+        /*background-color: red;*/
+    }
+    /**********************************************SPACE BETWEEN LIST AND TITLE*****************************************************/
+
+    #betweenListTitle{
+        height:100px;
+        line-height: 100px;
+        /*background-color: red;*/
+    }
+
+}
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+/******************************************************LARGE SCREENS BELOW******************************************************/
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+@media screen and (min-width: 992px) and (max-width:1619px) {
+
+    /**********************************************TOP LOGO BELOW*******************************************************************/
+    .boxLogoTop {
+        height: 410px;
+        line-height: 410px;
+        background-size:625px 410px;
+        background-position: 50% 62%;
+        margin-bottom:-90px;
+    }
+
+    /**********************************************TOP MENU BELOW*******************************************************************/
+    .boxMainHead {
+        height: 160px;
+        line-height: 160px;
+        /*background-color:blueviolet;*/
+    }
+
+    #row1 {
+        height: 52px;
+        line-height: 52px;
+        /*background-color:red;*/
+
+    }
+
+    #row2 {/*Portfolio*/
+        height: 24px;
+        line-height: 24px;
+    }
+
+    #row3 {
+        height: 25px;
+        line-height: 25px;
+        /*background-color:aquamarine;*/
+    }
+
+
+    #row4 {/*profile&contact*/
+        height: 24px;
+        line-height: 24px;
+    }
+
+    #row5 {
+        height: 35px;
+        line-height: 35px;
+        /*background-color:aquamarine;*/
+    }
+
+    .colmn1 {
+        width: 6px;
+    }
+
+    .colmn2 {/*profile*/
+        width: 114px;
+    }
+    .colmn3 {
+        width: 74px;
+    }
+    .colmn4 {/*contact*/
+        width: 134px;
+    }
+    .colmn5 {
+        width: 9px;
+    }
+    .colmn6 {/*portfolio*/
+        width: 161px;
+    }
+    .colmn7 {
+        width: 12px;
+    }
+    .colmn8 {
+        width: 15px;
+    }
+    .colmn9 {
+        width: 15px;
+    }
+
+    #row4 > .colmn2:hover{/*profile*/
+        background-image:url(img/MainTitleH-Profile.png);
+        /*opacity: 0.6;*/
+    }
+
+    #row4 > .colmn4:hover{/*contact*/
+        background-image:url(img/MainTitleH-Contact.png);
+        /*opacity: 0.6;*/
+    }
+    #row2 > .colmn6:hover{/*portfolio*/
+        background-image:url(img/MainTitleH-Portfolio.png);
+        /*opacity: 0.6;*/
+    }
+    #topMenu {
+        height: 160px;
+        width: 540px;
+        line-height: 160px;
+        /*border:solid 1px black;*/
+    }
+    /**********************************************SPACE BETWEEN TOP MENU AND TITLE************************************************/
+
+    #betweenTopMenuTitle{
+        height:45px;
+        line-height: 45px;
+        /*background-color: red;*/
+    }
+    /**********************************************SPACE BETWEEN LIST AND TITLE*****************************************************/
+
+    #betweenListTitle{
+        height:100px;
+        line-height: 100px;
+        /*background-color: red;*/
+    }
+
+}
+
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+/*************************************LARGE SCREENS ABOVE - TABLETS BELOW*******************************************************/
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    /**********************************************TOP LOGO BELOW*******************************************************************/
+    .boxLogoTop {
+        height: 300px;
+        line-height: 300px;
+        background-size: 625px 410px;
+        background-position: 50% 100%;
+        margin-bottom: -155px;
+    }
+
+    #logoTop {
+        /*background-color:red;*/
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    /**********************************************TOP MENU BELOW*******************************************************************/
+    .boxMainHead {
+        height: 160px;
+        line-height: 160px;
+        /*background-color:blueviolet;*/
+    }
+
+    #row1 {
+        height: 52px;
+        line-height: 52px;
+        /*background-color:red;*/
+
+    }
+
+    #row2 {
+        /*Portfolio*/
+        height: 24px;
+        line-height: 24px;
+    }
+
+    #row3 {
+        height: 25px;
+        line-height: 25px;
+        /*background-color:aquamarine;*/
+    }
+
+    #row4 {
+        /*profile&contact*/
+        height: 24px;
+        line-height: 24px;
+    }
+
+    #row5 {
+        height: 35px;
+        line-height: 35px;
+        /*background-color:aquamarine;*/
+    }
+
+    .colmn1 {
+        width: 6px;
+    }
+
+    .colmn2 {
+        /*profile*/
+        width: 114px;
+    }
+
+    .colmn3 {
+        width: 74px;
+    }
+
+    .colmn4 {
+        /*contact*/
+        width: 134px;
+    }
+
+    .colmn5 {
+        width: 9px;
+    }
+
+    .colmn6 {
+        /*portfolio*/
+        width: 161px;
+    }
+
+    .colmn7 {
+        width: 12px;
+    }
+
+    .colmn8 {
+        width: 15px;
+    }
+
+    .colmn9 {
+        width: 15px;
+    }
+
+    #row4 > .colmn2:hover {
+        /*profile*/
+        background-image: url(img/MainTitleH-Profile.png);
+        /*opacity: 0.6;*/
+    }
+
+    #row4 > .colmn4:hover {
+        /*contact*/
+        background-image: url(img/MainTitleH-Contact.png);
+        /*opacity: 0.6;*/
+    }
+
+    #row2 > .colmn6:hover {
+        /*portfolio*/
+        background-image: url(img/MainTitleH-Portfolio.png);
+        /*opacity: 0.6;*/
+    }
+
+    #topMenu {
+        height: 160px;
+        width: 540px;
+        line-height: 160px;
+        /*border:solid 1px black;*/
+    }
+
+    /**********************************************SPACE BETWEEN TOP MENU AND TITLE*************************************************/
+    #betweenTopMenuTitle {
+        height: 45px;
+        line-height: 45px;
+        /*background-color: red;*/
+    }
+
+    /**********************************************SPACE BETWEEN LIST AND TITLE*****************************************************/
+    #betweenListTitle {
+        height: 50px;
+        line-height: 50px;
+        /*background-color: red;*/
+    }
+
+}
+
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+/*************************************TABLETS ABOVE - EXTRA SMALL SCREENS BELOW*************************************************/
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+
+@media screen and (min-width: 536px) and (max-width: 767px) {
+
+    /**********************************************TOP MENU BELOW*******************************************************************/
+    #row1TopMenu {
+        height:45px;
+        lineheight:45px;
+        /*background-color: yellow;*/
+        display:table;
+        font-family: Lato-Thin, sans-serif;
+    }
+    #row1TopMenu span{
+        font-size: 45px;
+        vertical-align: middle;
+    }
+    /**********************************************SPACE BETWEEN TOP MENU AND LIST**************************************************/
+
+    #betweenTopMenuList{
+        height:20px;
+        line-height: 20px;
+        /*background-color: red;*/
+    }
+    /**************************************************LIST BELOW*******************************************************************/
+    #row2TopMenu, #row2TopMenu a {
+        font-size: 14pt;
+    }
+
+    /**********************************************SPACE BETWEEN TOP MENU AND TITLE*************************************************/
+
+    #betweenTopMenuTitle{
+        height: 35px;
+        line-height: 35px;
+        /*background-color: red;*/
+    }
+    /**********************************************SPACE BETWEEN LIST AND TITLE*****************************************************/
+
+    #betweenListTitle{
+        height: 35px;
+        line-height: 35px;
+        /*background-color: red;*/
+    }
+
+}
+
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+/*************************************EXTRA SMALL SCREENS ABOVE - MOBILES BELOW*************************************************/
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+
+@media screen and (max-width: 535px) {
+
+    #aboveTopMenu{
+        height: 30px;
+        line-height: 30px;
+        width: 100%;
+    }
+
+    #aboveTopMenu{
+        height: 30px;
+        line-height: 30px;
+        width: 100%;
+    }
+
+    /**********************************************TOP MENU BELOW*******************************************************************/
+    #row1TopMenu {
+        height:42px;
+        lineheight:42px;
+        /*background-color: yellow;*/
+        display:table;
+        font-family: Lato-Thin, sans-serif;
+    }
+    #row1TopMenu span{
+        font-size: 42px;
+        vertical-align: middle;
+    }
+    /**********************************************SPACE BETWEEN TOP MENU AND LIST**************************************************/
+
+    #betweenTopMenuList{
+        height:20px;
+        line-height: 20px;
+        /*background-color: red;*/
+    }
+    /**************************************************LIST BELOW*******************************************************************/
+    #row2TopMenu, #row2TopMenu a {
+        font-size: 13pt;
+    }
+
+    /**********************************************SPACE BETWEEN TOP MENU AND TITLE*************************************************/
+
+    #betweenTopMenuTitle{
+        height:35px;
+        line-height: 35px;
+        /*background-color: red;*/
+    }
+    /**********************************************SPACE BETWEEN LIST AND TITLE*****************************************************/
+
+    #betweenListTitle{
+        height:35px;
+        line-height: 35px;
+        /*background-color: red;*/
+    }
+
+}
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+/***********************************************GENERAL CSS BELOW***************************************************************/
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+
+/**********************************************TOP LOGO BELOW*******************************************************************/
+
+.boxLogoTop {
+    background-image: url(img/DecoHeader.jpg);
+    background-repeat: no-repeat;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+#port, #profile, #contact {
+    /*background-color:rgba(100, 120, 30, .5);*/
+    height: 100%;
+    width: 100%;
+}
+
+/**********************************************TOP MENU BELOW*******************************************************************/
+
+#topMenu {
+    background-image: url(img/MainTitle.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#row1TopMenu {
+    /*background-color: #008000;*/
+
+}
+
+/**************************************************LIST BELOW SMALL*************************************************************/
+
+#row2TopMenu {
+    /*background-color: darkorange;*/
+    height: 14pt;
+    line-height: 14pt;
+    font-family: Lato-Light, sans-serif;
+}
+
+#ruiYunMob{
+    color:#990000;
+}
+#row2TopMenu a{
+    text-decoration: none;
+    color:#333333;
+}
+#row2TopMenu a:hover{
+    text-decoration:none;
+    color:#ffffff;
+    background-color:#990000;
+}

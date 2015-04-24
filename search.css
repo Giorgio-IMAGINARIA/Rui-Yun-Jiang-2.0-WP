@@ -1,0 +1,1018 @@
+﻿{}/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+/***************************************VERY LARGE SCREEN ABOVE - LARGE SCREENS BELOW*******************************************/
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+@media screen and (min-width: 1620px) {
+
+    /**********************************************SECOND HEADLINE BELOW************************************************************/
+
+    .SecondHeadSideLines {
+        height: 36px;
+        /*background-color: lawngreen;*/
+    }
+
+    .SecondHeadSide {
+        /*background-color: lawngreen;*/
+        height: 36px;
+        line-height: 36px;
+    }
+
+    .SecondHeadSide p {
+        font-size: 36px;
+        font-family: Lato-Thin, sans-serif;
+    }
+
+    /**********************************************SPACE BELOW TITLE***************************************************************/
+
+    #belowTitle{
+        height:45px;
+        line-height: 45px;
+        /*background-color: red;*/
+    }
+
+    /**********************************************FEATURES-THUMBNAILS-BELOW************************************************************/
+
+    .featureBorders{
+        padding-bottom: calc(100% - 22px);
+        margin-bottom: calc((100% - 21px)*(-1));
+    }
+
+.fetPicture{
+    padding-bottom: calc(100% - 22px);
+    margin-bottom: -100px;
+}
+
+.boxes{
+    width: 100%;
+    height: 100px;
+}
+
+    .wFeatured {
+        height: 100px;
+        line-height: 100px;
+        font-size: 30pt;
+        /*letter-spacing: 8px;*/
+        text-align: left;
+    }
+
+
+    #colP1, #colP4 {
+        padding-right: 7px;
+    }
+
+    #colP2, #colP5 {
+        padding-right: 11px;
+        padding-left: 11px;
+    }
+
+    #colP3, #colP6 {
+        padding-left: 7px;
+    }
+
+    .featuredTitle{
+        height:50px;
+        line-height:50px;
+        /*background-color: red;*/
+        width:90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .firstTitle{
+        font-size: 24pt;
+        text-align: left;
+        border-bottom: solid #990000 1px;
+    }
+    .secondTitle{
+        font-size: 16pt;
+        text-align: right;
+    }
+
+    .featureLink:hover .firstTitle{
+        border-bottom: solid #CC0000 1px;
+    }
+
+    /**********************************************SPACE-BETWEEN-THUMBNAILS-PAGES-LINE*************************************************/
+
+    #betweenThumbnailsPages{
+        height:50px;
+        line-height: 50px;
+        /*background-color: salmon;*/
+    }
+
+    /************************************************************PAGES-BELOW***********************************************************/
+
+    #pages {
+        height:29px;
+        line-height: 29px;
+        text-align: center;
+        /*background-color: yellow;*/
+    }
+
+    #pagesContainer {
+        width:317px;
+        margin-left: auto;
+        margin-right:auto;
+        height:inherit;
+        line-height: inherit;
+        /*background-color: lightseagreen;*/
+    }
+
+    #pagesContainer div, #pagesContainer a{
+        font-size:18pt;
+        letter-spacing:4px;
+    }
+
+    /************************************************************RED-LINE-BELOW***********************************************************/
+
+    #redLine{
+        height:20px;
+        line-height: 20px;
+        /*background-color: green;*/
+    }
+
+    #redLineContainer{
+        height:20px;
+        line-height: 20px;
+        /*background-color: red;*/
+        width:320px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    #redLineContainer div{
+        position:relative;
+        top:50%;
+        border-bottom: solid #990000 1px;
+    }
+
+    /*************************************************************BACK-BELOW***********************************************************/
+
+    #back{
+        height: 27px;
+        lineheight:27px;
+        margin: 0;
+        /*background-color: red;*/
+        padding-left:0;
+        padding-right:0;
+    }
+    .backSide{
+        height:inherit;
+        line-height:inherit;
+        /*background-color: lawngreen;*/
+        float:left;
+        width:calc((100% - 304px) / 2);
+    }
+
+    #backCenter{
+        position:relative;
+        top:calc(50% - 10pt);
+        /*background-color: khaki;*/
+        float:left;
+        width:304px;
+
+    }
+    #backCenter span{
+        color:#990000;
+        font-family: Lato-Light, sans-serif;
+        font-size:14pt;
+        letter-spacing: 2px;
+    }
+    #backCenter a{
+        color: #333333;
+        font-family: Lato-Light, sans-serif;
+        font-size:14pt;
+        letter-spacing: 2px;
+    }
+    #backCenter a:hover{
+        text-decoration:none;
+        background-color:#990000;
+        color:#FFFFFF;
+    }
+
+
+}
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+/******************************************************LARGE SCREENS BELOW******************************************************/
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+@media screen and (min-width: 992px) and (max-width:1619px) {
+
+    /**********************************************SECOND HEADLINE BELOW***********************************************************/
+
+    .SecondHeadSideLines {
+        height: 36px;
+        /*background-color: lawngreen;*/
+    }
+
+    .SecondHeadSide {
+        /*background-color: lawngreen;*/
+        height: 36px;
+        line-height: 36px;
+    }
+
+    .SecondHeadSide p {
+        font-size: 36px;
+        font-family: Lato-Thin, sans-serif;
+    }
+
+    /**********************************************SPACE BELOW TITLE****************************************************************/
+    #belowTitle{
+        height:45px;
+        line-height: 45px;
+        /*background-color: red;*/
+    }
+
+    /**********************************************FEATURES-THUMBNAILS-BELOW************************************************************/
+.featureBorders{
+    padding-bottom: calc(100% - 22px);
+    margin-bottom: calc((100% - 21px)*(-1));
+}
+.fetPicture{
+    padding-bottom: calc(100% - 22px);
+    margin-bottom: -100px;
+}
+.boxes{
+    width: 100%;
+    height: 100px;
+}
+    .wFeatured {
+        height: 100px;
+        line-height: 100px;
+        /*background-color: green;*/
+        font-size: 16pt;
+        /*letter-spacing: 4px;*/
+        text-align: left;
+    }
+
+
+    #colP1, #colP4 {
+        padding-right: 7px;
+    }
+
+    #colP2, #colP5 {
+        padding-right: 11px;
+        padding-left: 11px;
+    }
+
+    #colP3, #colP6  {
+        padding-left: 7px;
+    }
+
+    .featuredTitle{
+        height:50px;
+        line-height:50px;
+        /*background-color: red;*/
+        width:90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .firstTitle{
+        font-size: 24pt;
+        text-align: left;
+        border-bottom: solid #990000 1px;
+    }
+    .secondTitle{
+        font-size: 16pt;
+        text-align: right;
+    }
+
+    .featureLink:hover .firstTitle{
+        border-bottom: solid #CC0000 1px;
+    }
+
+    /**********************************************SPACE-BETWEEN-THUMBNAILS-PAGES-LINE*************************************************/
+
+    #betweenThumbnailsPages{
+        height:50px;
+        line-height: 50px;
+        /*background-color: salmon;*/
+    }
+
+    /************************************************************PAGES-BELOW***********************************************************/
+
+
+    #pages {
+        height:29px;
+        line-height: 29px;
+        text-align: center;
+        /*background-color: yellow;*/
+    }
+
+    #pagesContainer {
+        width:317px;
+        margin-left: auto;
+        margin-right:auto;
+        height:inherit;
+        line-height: inherit;
+        /*background-color: lightseagreen;*/
+    }
+
+    #pagesContainer div, #pagesContainer a{
+        font-size:18pt;
+        letter-spacing:4px;
+    }
+
+    /************************************************************RED-LINE-BELOW***********************************************************/
+
+    #redLine{
+        height:20px;
+        line-height: 20px;
+        /*background-color: green;*/
+    }
+
+    #redLineContainer{
+        height:20px;
+        line-height: 20px;
+        /*background-color: red;*/
+        width:320px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    #redLineContainer div{
+        position:relative;
+        top:50%;
+        border-bottom: solid #990000 1px;
+    }
+
+    /*************************************************************BACK-BELOW***********************************************************/
+
+    #back{
+        height: 27px;
+        lineheight:27px;
+        margin: 0;
+        /*background-color: red;*/
+        padding-left:0;
+        padding-right:0;
+    }
+    .backSide{
+        height:inherit;
+        line-height:inherit;
+        /*background-color: lawngreen;*/
+        float:left;
+        width:calc((100% - 304px) / 2);
+    }
+
+    #backCenter{
+        position:relative;
+        top:calc(50% - 10pt);
+        /*background-color: khaki;*/
+        float:left;
+        width:304px;
+
+    }
+    #backCenter span{
+        color:#990000;
+        font-family: Lato-Light, sans-serif;
+        font-size:14pt;
+        letter-spacing: 2px;
+    }
+    #backCenter a{
+        color: #333333;
+        font-family: Lato-Light, sans-serif;
+        font-size:14pt;
+        letter-spacing: 2px;
+    }
+    #backCenter a:hover{
+        text-decoration:none;
+        background-color:#990000;
+        color:#FFFFFF;
+    }
+
+}
+
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+/*************************************LARGE SCREENS ABOVE - TABLETS BELOW*******************************************************/
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    /**********************************************SECOND HEADLINE BELOW************************************************************/
+
+    .SecondHeadSideLines {
+        height: 36px;
+        /*background-color: lawngreen;*/
+    }
+
+    .SecondHeadSide {
+        /*background-color: lawngreen;*/
+        height: 36px;
+        line-height: 36px;
+    }
+
+    .SecondHeadSide p {
+        font-size: 36px;
+        font-family: Lato-Thin, sans-serif;
+    }
+
+    /**********************************************SPACE BELOW TITLE********************************************************************/
+
+    #belowTitle{
+        height:45px;
+        line-height: 45px;
+        /*background-color: red;*/
+    }
+
+
+    /**********************************************FEATURES-THUMBNAILS-BELOW************************************************************/
+
+    .featureBorders{
+        padding-bottom: 100%;
+        margin-bottom: calc(-100% - 2px);
+    }
+
+    .fetPicture{
+        padding-bottom: calc(100% + 2px);
+        margin-bottom: -100px;
+    }
+
+    .boxes{
+        height: 100px;
+    }
+
+    .wFeatured {
+        height: 100px;
+        line-height: 100px;
+        text-align: center;
+    }
+
+    #colPL {
+        padding-right:10px;
+    }
+
+    #colPR {
+        padding-left:10px;
+    }
+
+    .featuredTitle {
+        height:50px;
+        line-height:50px;
+        /*background-color: red;*/
+        width:90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .firstTitle {
+        font-size: 24pt;
+        text-align: left;
+        border-bottom: solid #990000 1px;
+    }
+
+    .secondTitle {
+        font-size: 16pt;
+        text-align: right;
+    }
+
+    .featureLink:hover .firstTitle {
+        border-bottom: solid #CC0000 1px;
+    }
+
+    /**********************************************SPACE-BETWEEN-THUMBNAILS-PAGES-LINE*************************************************/
+
+    #betweenThumbnailsPages{
+        height:50px;
+        line-height: 50px;
+        /*background-color: salmon;*/
+    }
+
+    /************************************************************PAGES-BELOW***********************************************************/
+
+    #pages {
+        height:29px;
+        line-height: 29px;
+        text-align: center;
+        /*background-color: yellow;*/
+    }
+
+    #pagesContainer {
+        width:317px;
+        margin-left: auto;
+        margin-right:auto;
+        height:inherit;
+        line-height: inherit;
+        /*background-color: lightseagreen;*/
+    }
+
+    #pagesContainer div, #pagesContainer a{
+        font-size:18pt;
+        letter-spacing:4px;
+    }
+
+    /************************************************************RED-LINE-BELOW***********************************************************/
+
+    #redLine{
+        height:20px;
+        line-height: 20px;
+        /*background-color: green;*/
+    }
+    #redLineContainer{
+        height:20px;
+        line-height: 20px;
+        /*background-color: red;*/
+        width:320px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    #redLineContainer div{
+        position:relative;
+        top:50%;
+        border-bottom: solid #990000 1px;
+    }
+    /*************************************************************BACK-BELOW***********************************************************/
+
+    #back{
+        height: 27px;
+        lineheight:27px;
+        margin: 0;
+        /*background-color: red;*/
+        padding-left:0;
+        padding-right:0;
+    }
+    .backSide{
+        height:inherit;
+        line-height:inherit;
+        /*background-color: lawngreen;*/
+        float:left;
+        width:calc((100% - 304px) / 2);
+    }
+
+    #backCenter{
+        position:relative;
+        top:calc(50% - 10pt);
+        /*background-color: khaki;*/
+        float:left;
+        width:304px;
+
+    }
+    #backCenter span{
+        color:#990000;
+        font-family: Lato-Light, sans-serif;
+        font-size:14pt;
+        letter-spacing: 2px;
+    }
+    #backCenter a{
+        color: #333333;
+        font-family: Lato-Light, sans-serif;
+        font-size:14pt;
+        letter-spacing: 2px;
+    }
+    #backCenter a:hover{
+        text-decoration:none;
+        background-color:#990000;
+        color:#FFFFFF;
+    }
+
+}
+
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+/*************************************TABLETS ABOVE - EXTRA SMALL SCREENS BELOW*************************************************/
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+
+@media screen and (min-width: 536px) and (max-width: 767px) {
+
+    /**********************************************SECOND HEADLINE BELOW************************************************************/
+
+    #deskHomeLeft{
+        padding-left: 0;
+    }
+    #deskHomeRight{
+        padding-right: 0;
+    }
+    .SecondHeadSideLines {
+        height: 18pt;
+        /*background-color: lawngreen;*/
+    }
+
+    .SecondHeadSide {
+        /*background-color: lawngreen;*/
+        height: 18pt;
+        line-height: 18pt;
+    }
+
+    .SecondHeadSide p {
+        font-size: 18pt;
+        font-family: Lato-Light, sans-serif;
+    }
+
+    /**********************************************SPACE BELOW TITLE****************************************************************/
+
+    #belowTitle{
+        height: 35px;
+        line-height: 35px;
+        /*background-color: red;*/
+    }
+
+    /**********************************************FEATURES-THUMBNAILS-BELOW************************************************************/
+
+    .featureBorders{
+        padding-bottom: 50%;
+        margin-bottom: calc(-50% - 1.2px);
+    }
+
+    .fetPicture{
+        padding-bottom: 50%;
+        margin-bottom: calc(-25% - 35px);
+    }
+
+    .boxes{
+        height: 70px;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: calc(25% - 35px);
+    }
+
+    .wFeatured {
+        font-size: 22pt;
+        height: 70px;
+        line-height: 70px;
+        text-align: center;
+    }
+
+    .firstLetter{
+        font-size:36pt;
+        vertical-align: bottom;
+    }
+
+    /**********************************************SPACE-BETWEEN-THUMBNAILS-PAGES-LINE*************************************************/
+
+    #betweenThumbnailsPages{
+        height:45px;
+        line-height: 45px;
+        /*background-color: salmon;*/
+    }
+
+    /************************************************************PAGES-BELOW***********************************************************/
+
+    #pages {
+        height:14px;
+        line-height: 14px;
+        /*background-color: yellow;*/
+    }
+
+    #pagesContainer {
+        width:198px;
+        margin-left: auto;
+        margin-right:auto;
+        height:14px;
+        line-height: 14px;
+        /*background-color: lightseagreen;*/
+    }
+
+    #pagesContainer div, #pagesContainer a{
+        font-size:12pt;
+        letter-spacing:2px;
+    }
+
+    /************************************************************RED-LINE-BELOW***********************************************************/
+
+    #redLineSpace{
+        height:45px;
+        line-height: 45px;
+        /*background-color: green;*/
+    }
+
+    /*************************************************************BACK-BELOW***********************************************************/
+    #back{
+        height: 20px;
+        lineheight:20px;
+        margin: 0;
+        /*background-color: red;*/
+        padding-left:0;
+        padding-right:0;
+    }
+    .backSide{
+        height:inherit;
+        line-height: inherit;
+        /*background-color: lawngreen;*/
+        float:left;
+        width:calc((100% - 270px) / 2);
+    }
+    .backSide div{
+        position:relative;
+        top:50%;
+        border-bottom: solid #990000 1px;
+    }
+    #backCenter{
+        position:relative;
+        top:calc(50% - 8pt);
+        /*background-color: khaki;*/
+        float:left;
+        width:270px;
+
+    }
+    #backCenter span{
+        color:#990000;
+        font-family: Lato-Light, sans-serif;
+        font-size:12pt;
+        letter-spacing: 2px;
+    }
+    #backCenter a{
+        color: #333333;
+        font-family: Lato-Light, sans-serif;
+        font-size:12pt;
+        letter-spacing: 2px;
+    }
+    #backCenter a:hover{
+        text-decoration:none;
+        background-color:#990000;
+        color:#FFFFFF;
+    }
+
+}
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+/*************************************EXTRA SMALL SCREENS ABOVE - MOBILES BELOW*************************************************/
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+
+@media screen and (max-width: 535px) {
+
+    /**********************************************SECOND HEADLINE BELOW************************************************************/
+
+    #deskHomeLeft{
+        padding-left:0;
+    }
+    #deskHomeRight{
+        padding-right:0;
+    }
+    .SecondHeadSideLines {
+        height: 18pt;
+        /*background-color: lawngreen;*/
+    }
+
+    .SecondHeadSide {
+        /*background-color: lawngreen;*/
+        height: 18pt;
+        line-height: 18pt;
+    }
+
+    .SecondHeadSide p {
+        font-size: 18pt;
+        font-family: Lato-Light, sans-serif;
+    }
+
+    /**********************************************SPACE BELOW TITLE*********************************************************************/
+
+    #belowTitle{
+        height:35px;
+        line-height: 35px;
+        /*background-color: red;*/
+    }
+
+    /**********************************************FEATURES-THUMBNAILS-BELOW************************************************************/
+
+    .featureBorders {
+        padding-bottom: 50%;
+        margin-bottom: calc(-50% - 1.2px);
+    }
+
+    .fetPicture {
+        padding-bottom: 50%;
+        margin-bottom: calc(-25% - 35px);
+    }
+
+    .boxes {
+        height: 70px;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: calc(25% - 35px);
+    }
+
+    .wFeatured {
+        font-size: 12pt;
+        height: 70px;
+        line-height: 70px;
+        text-align: center;
+    }
+
+    .firstLetter{
+        font-size:22pt;
+        vertical-align: bottom;
+    }
+
+    /**********************************************SPACE-BETWEEN-THUMBNAILS-PAGES-LINE*************************************************/
+
+    #betweenThumbnailsPages{
+        height:25px;
+        line-height: 25px;
+        /*background-color: salmon;*/
+    }
+
+    /************************************************************PAGES-BELOW***********************************************************/
+
+    #pages {
+        height:14px;
+        line-height: 14px;
+        /*background-color: yellow;*/
+    }
+
+    #pagesContainer {
+        width:198px;
+        margin-left: auto;
+        margin-right:auto;
+        height:14px;
+        line-height: 14px;
+        /*background-color: lightseagreen;*/
+    }
+
+    #pagesContainer div, #pagesContainer a{
+        font-size:12pt;
+        letter-spacing:2px;
+    }
+
+    /************************************************************RED-LINE-BELOW***********************************************************/
+
+    #redLineSpace{
+        height:20px;
+        line-height: 20px;
+        /*background-color: green;*/
+    }
+
+    /*************************************************************BACK-BELOW***********************************************************/
+    #back{
+        height: 20px;
+        lineheight:20px;
+        margin: 0;
+        /*background-color: red;*/
+        padding-left:0;
+        padding-right:0;
+    }
+    .backSide{
+        height:20px;
+        line-height: 20px;
+        /*background-color: lawngreen;*/
+        float:left;
+        width:calc((100% - 270px) / 2);
+        position:relative;
+        top:calc(50% - 10px);
+    }
+    .backSide div{
+        position:relative;
+        top:50%;
+        border-bottom: solid #990000 1px;
+    }
+    #backCenter{
+        position:relative;
+        top:calc(50% - 8pt);
+        /*background-color: khaki;*/
+        float:left;
+        width:270px;
+    }
+    #backCenter span{
+        color:#990000;
+        font-family: Lato-Light, sans-serif;
+        font-size:11pt;
+        letter-spacing: 2px;
+    }
+    #backCenter a{
+        color: #333333;
+        font-family: Lato-Light, sans-serif;
+        font-size:11pt;
+        letter-spacing: 2px;
+    }
+    #backCenter a:hover{
+        text-decoration:none;
+        background-color:#990000;
+        color:#FFFFFF;
+    }
+
+}
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+/***********************************************GENERAL CSS BELOW***************************************************************/
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+#mainCont{
+    margin-top: -40px !important;
+}
+
+/**********************************************SECOND HEADLINE BELOW************************************************************/
+
+#deskHomeCent {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.SecondHeadSideline {
+    line-height: 0;
+    border-bottom: 1px solid #990000;
+    top: 50%;
+    position: relative;
+}
+
+/**********************************************FEATURES-THUMBNAILS-BELOW************************************************************/
+.featureBorders{
+    border: solid 1px #000000;
+    position: relative;
+    z-index: 2;
+}
+
+.boxes{
+    background-color: rgba(255, 255, 255, 0.6);
+    position: relative;
+    z-index: 1;
+    transition: background-color 1s;
+    -webkit-transition: background-color 1s;
+}
+.wFeatured {
+    font-family: Lato-Light, sans-serif;
+    text-transform: uppercase;
+    color:#333333;
+    transition: color 1s;
+    -webkit-transition: color 1s;
+}
+
+.firstLetter{
+    color:#990000;
+    transition: color 1s;
+    -webkit-transition: color 1s;
+    /*-webkit-font-smoothing: subpixel-antialiased;*/
+}
+
+.featureLink{
+    color: #333333;
+    text-decoration: none;
+    transition: color 1s;
+    -webkit-transition: color 1s;
+    /*-webkit-font-smoothing: subpixel-antialiased;*/
+}
+
+.featureLink:hover{
+    text-decoration: none;
+}
+
+.featureLink:hover .wFeatured {
+    color:#fafafa;
+}
+.featureLink:hover #Comment {
+    color:#fafafa;
+}
+.featureLink:hover #Date {
+    color:#fafafa;
+}
+
+.featureLink:hover #Headline {
+    color:#fafafa;
+}
+
+.featureLink:hover .firstLetter {
+    color:#CC0000;
+}
+.featureLink:hover .boxDateline {
+    border-color: #CC0000;
+}
+
+
+.featureLink:hover .boxes{
+    background-color:rgba(0, 0, 0, 0.6);
+}
+
+.featureLink:hover #centeredDateBox{
+    background-color:rgba(0, 0, 0, 0.6);
+}
+
+.featureLink:hover .fetPicture{
+    filter:grayscale(100%);
+    -webkit-filter:grayscale(100%);
+}
+.featureLink:hover .DateBox{
+    filter:grayscale(100%);
+    -webkit-filter:grayscale(100%);
+}
+.featureLink:focus{
+    color: #333333;
+    text-decoration: none;
+}
+.fetPicture{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: filter 1s;
+    -webkit-transition: -webkit-filter 1s;
+}
+
+/************************************************************PAGES-BELOW***********************************************************/
+
+#pages{
+    font-family: Lato-Light, sans-serif;
+}
+
+#pages a{
+    color: #990000;
+    text-decoration:none;
+}
+
+#pages a:hover{
+    text-decoration:none;
+    color:#ffffff;
+    background-color:#990000;
+}

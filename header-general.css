@@ -1,0 +1,425 @@
+﻿/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+/***************************************VERY LARGE SCREEN ABOVE - LARGE SCREENS BELOW*******************************************/
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+@media screen and (min-width: 1620px) {
+
+    /**********************************************TOP LOGO BELOW*******************************************************************/
+
+    .boxLogoTop {
+        top: 0px !important;
+        height: 410px;
+        line-height: 410px;
+        background-size:625px 410px;
+        background-position: 50% 62%;
+        margin-bottom:-120px;
+    }
+
+    /**********************************************TOP MENU BELOW*******************************************************************/
+    .row1TopMenu {
+        height:90px;
+        lineheight:90px;
+        /*background-color: yellow;*/
+        display:table;
+        font-family: Lato-Hairline, sans-serif;
+    }
+    .row1TopMenu span{
+        font-size: 90px;
+        vertical-align: middle;
+    }
+    /**********************************************SPACE BETWEEN TOP MENU AND LIST**************************************************/
+
+    #betweenTopMenuList{
+        height:5px;
+        line-height: 5px;
+        /*background-color: red;*/
+    }
+    /**************************************************LIST BELOW*******************************************************************/
+
+
+
+
+
+
+    /**********************************************SPACE BETWEEN LIST AND TITLE*****************************************************/
+
+    #betweenListTitle{
+        height:100px;
+        line-height: 100px;
+        /*background-color: red;*/
+    }
+
+}
+
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+/******************************************************LARGE SCREENS BELOW******************************************************/
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+@media screen and (min-width: 992px) and (max-width:1619px) {
+
+    /**********************************************TOP LOGO BELOW*******************************************************************/
+    .boxLogoTop {
+        height: 410px;
+        line-height: 410px;
+        background-size:625px 410px;
+        background-position: 50% 62%;
+        margin-bottom:-120px;
+    }
+
+    /**********************************************TOP MENU BELOW*******************************************************************/
+    .row1TopMenu {
+        height:90px;
+        lineheight:90px;
+        /*background-color: yellow;*/
+        display:table;
+        font-family: Lato-Hairline, sans-serif;
+    }
+    .row1TopMenu span{
+        font-size: 90px;
+        vertical-align: middle;
+    }
+    /**********************************************SPACE BETWEEN TOP MENU AND LIST**************************************************/
+
+    #betweenTopMenuList{
+        height:5px;
+        line-height: 5px;
+        /*background-color: red;*/
+    }
+    /**************************************************LIST BELOW*******************************************************************/
+
+
+
+
+
+
+
+
+
+    /**********************************************SPACE BETWEEN LIST AND TITLE****************************************************/
+
+    #betweenListTitle{
+        height:100px;
+        line-height: 100px;
+        /*background-color: red;*/
+    }
+
+}
+
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+/*************************************LARGE SCREENS ABOVE - TABLETS BELOW*******************************************************/
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    /**********************************************TOP LOGO BELOW*******************************************************************/
+
+    .boxLogoTop {
+        height: 410px;
+        line-height: 410px;
+        background-size:625px 410px;
+        background-position: 50% 100%;
+        margin-bottom:-170px;
+    }
+
+    #logoTop {
+        /*background-color:red;*/
+        padding-left:0;
+        padding-right:0;
+    }
+
+    /**********************************************TOP MENU BELOW*******************************************************************/
+
+    .row1TopMenu {
+        height:90px;
+        lineheight:90px;
+        /*background-color: yellow;*/
+        display:table;
+        font-family: Lato-Hairline, sans-serif;
+    }
+
+    .row1TopMenu span{
+        font-size: 90px;
+        vertical-align: middle;
+    }
+
+    /**********************************************SPACE BETWEEN TOP MENU AND LIST**************************************************/
+
+    #betweenTopMenuList{
+        height:5px;
+        line-height: 5px;
+        /*background-color: red;*/
+    }
+
+    /**************************************************LIST BELOW*******************************************************************/
+
+
+
+
+
+
+
+    /**********************************************SPACE BETWEEN LIST AND TITLE*****************************************************/
+
+    #betweenListTitle {
+        height:50px;
+        line-height: 50px;
+        /*background-color: red;*/
+    }
+
+}
+
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+/*************************************TABLETS ABOVE - EXTRA SMALL SCREENS BELOW*************************************************/
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+
+@media screen and (min-width: 536px) and (max-width: 767px) {
+
+    .largeScrVersion {
+        display:none;
+    }
+
+    #aboveTopMenu {
+         height: 30px;
+         line-height: 30px;
+         width: 100%;
+     }
+
+    /**********************************************TOP MENU BELOW*******************************************************************/
+
+    .row1TopMenu {
+        height:45px;
+        lineheight:45px;
+        /*background-color: yellow;*/
+        display:table;
+    }
+
+    .row1TopMenu a{
+        font-size: 45px;
+        vertical-align: middle;
+        font-family: Lato-Thin, sans-serif;
+    }
+
+    .row1TopMenu a span{
+        font-size: 45px;
+        vertical-align: middle;
+        font-family: Lato-Thin, sans-serif;
+    }
+
+    .row1TopMenu a:hover {
+        font-size: 45px;
+        vertical-align: middle;
+        font-family: Lato-Thin, sans-serif;
+    }
+
+    .row1TopMenu a:hover span {
+        font-size: 45px;
+        vertical-align: middle;
+        font-family: Lato-Thin, sans-serif;
+    }
+
+    /**********************************************SPACE BETWEEN TOP MENU AND LIST**************************************************/
+
+    #betweenTopMenuList {
+        height:20px;
+        line-height: 20px;
+        /*background-color: red;*/
+    }
+
+    /**************************************************LIST BELOW*******************************************************************/
+    #row2TopMenu a {
+        font-size: 14pt;
+    }
+
+    /**********************************************SPACE BETWEEN LIST AND TITLE*****************************************************/
+
+    #betweenListTitle {
+        height: 35px;
+        line-height: 35px;
+        /*background-color: red;*/
+    }
+}
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+/*************************************EXTRA SMALL SCREENS ABOVE - MOBILES BELOW*************************************************/
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+
+@media screen and (max-width: 535px) {
+
+    .largeScrVersion{
+        display:none;
+    }
+
+    #aboveTopMenu{
+        height: 30px;
+        line-height: 30px;
+        width: 100%;
+    }
+
+    /**********************************************TOP MENU BELOW*******************************************************************/
+
+    .row1TopMenu {
+        height:42px;
+        lineheight:42px;
+        /*background-color: yellow;*/
+        display:table;
+    }
+
+
+    .row1TopMenu a{
+        font-family: Lato-Thin, sans-serif;
+        font-size: 42px;
+        vertical-align: middle;
+    }
+
+    .row1TopMenu a span{
+        font-family: Lato-Thin, sans-serif;
+        font-size: 42px;
+        vertical-align: middle;
+    }
+
+
+    .row1TopMenu a:hover {
+        font-family: Lato-Thin, sans-serif;
+        font-size: 42px;
+        vertical-align: middle;
+    }
+
+    .row1TopMenu a:hover span {
+        font-family: Lato-Thin, sans-serif;
+        font-size: 42px;
+        vertical-align: middle;
+    }
+
+    /**********************************************SPACE BETWEEN TOP MENU AND LIST**************************************************/
+
+    #betweenTopMenuList{
+        height:20px;
+        line-height: 20px;
+        /*background-color: red;*/
+    }
+
+    /**************************************************LIST BELOW*******************************************************************/
+
+    #row2TopMenu a {
+        font-size: 13pt;
+    }
+
+    /**********************************************SPACE BETWEEN LIST AND TITLE*****************************************************/
+
+    #betweenListTitle{
+        height:35px;
+        line-height: 35px;
+        /*background-color: red;*/
+    }
+
+}
+
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+/***********************************************GENERAL CSS BELOW***************************************************************/
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+
+.redtxt{
+    color:#990000;
+}
+
+/**********************************************TOP LOGO BELOW*******************************************************************/
+
+.boxLogoTop {
+    background-image: url(img/DecoHeader.jpg);
+    background-repeat: no-repeat;
+}
+
+/**********************************************TOP MENU BELOW*******************************************************************/
+
+.row1TopMenu a {
+    text-decoration:none;
+    color:#333333
+    /*background-color: #008000;*/
+}
+
+.row1TopMenu a:hover {
+    text-decoration:none;
+}
+
+.row1TopMenu a:hover span {
+    color:#ffffff;
+    background-color:#990000;
+}
+
+/**************************************************LIST BELOW SMALL*************************************************************/
+#row2TopMenu {
+    /*background-color: darkorange;*/
+    height: 14pt;
+    line-height: 14pt;
+    font-family: Lato-Light, sans-serif;
+}
+
+.ruiYunMob {
+    color:#990000;
+}
+
+#row2TopMenu a {
+    text-decoration: none;
+    color:#333333;
+}
+
+#row2TopMenu a:hover {
+    text-decoration:none;
+    color:#ffffff;
+    background-color:#990000;
+}
+
+/**************************************************LIST BELOW LARGE*************************************************************/
+
+#rowList {
+    /*background-color: darkorange;*/
+    height: 20px;
+    line-height: 20px;
+    width:100%;
+}
+
+#rowList a {
+    text-decoration: none;
+    font-family: Lato-Regular, sans-serif;
+    letter-spacing: 2px;
+}
+
+#rowList a span {
+    text-decoration: none;
+    font-family: Lato-Regular, sans-serif;
+    letter-spacing: 2px;
+}
+
+a span.firstLetterList {
+    color:#990000;
+    font-size: 18px;
+}
+
+a span.otherLettersList {
+    color:#333333;
+    font-size: 12px;
+}
+
+.bulletList {
+    color:#333333;
+    font-size: 8px;
+    position:relative;
+    top:-10%;
+}
+
+#rowList a:hover {
+    background-color:#990000;
+}
+
+#rowList a:hover span {
+    color:#FFFFFF ;
+}

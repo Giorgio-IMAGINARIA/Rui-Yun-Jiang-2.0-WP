@@ -1,0 +1,404 @@
+﻿/*
+Theme Name: Rui's Website
+Theme URI: http://imaginaria.london/
+Description: A theme for a designer <a http://ruiyun.uk/site/index.html">website</a>.
+Author: Rui Yun Jiang
+Author URI: http://imaginaria.london/
+Version: 1.0
+Tags: responsive, white, bootstrap
+
+License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+License URI: http://creativecommons.org/licenses/by-sa/3.0/
+
+*/
+
+@import url('bootstrap/css/bootstrap.min.css');
+
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+/***************************************VERY LARGE SCREEN ABOVE - LARGE SCREENS BELOW*******************************************/
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+@media screen and (min-width: 1620px) {
+
+    .tablets{
+        display:none;
+    }
+
+    .mobiles{
+        display:none;
+    }
+
+    .extrasmall{
+        display:none;
+    }
+
+    #mainCont {
+        width:1620px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+/******************************************************LARGE SCREENS BELOW******************************************************/
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+@media screen and (min-width: 992px) and (max-width:1619px) {
+
+    .tablets{
+        display:none;
+    }
+
+    .mobiles{
+        display:none;
+    }
+
+    .extrasmall{
+        display:none;
+    }
+
+    #mainCont {
+        width:992px;
+        margin-left: auto;
+        margin-right: auto;
+        /*margin-left: 5%;*/
+       /* margin-right: 5%;*/
+    }
+
+}
+
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+/*************************************LARGE SCREENS ABOVE - TABLETS BELOW*******************************************************/
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    .desktops{
+        display:none;
+    }
+
+    .mobiles{
+        display:none;
+    }
+
+    .extrasmall {
+        display:none;
+    }
+
+    #mainCont {
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+
+}
+
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+/*************************************TABLETS ABOVE - EXTRA SMALL SCREENS BELOW*************************************************/
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+
+@media screen and (min-width: 536px) and (max-width: 767px) {
+
+    .desktops{
+        display:none;
+    }
+
+    #mainCont {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .tablets{
+        display:none;
+    }
+
+    .extrasmall {
+        display:none;
+    }
+
+}
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+/*************************************EXTRA SMALL SCREENS ABOVE - MOBILES BELOW*************************************************/
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+
+@media screen and (max-width: 535px) {
+
+    .desktops{
+        display:none;
+    }
+
+    #mainCont {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .tablets{
+        display:none;
+    }
+
+    .noExtraSmall{
+        display:none;
+    }
+
+}
+
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+/***********************************************GENERAL CSS BELOW***************************************************************/
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+
+/***************************************WORDPRESS CONTENT INITIALISER BELOW*****************************************************/
+
+p {
+    font-size: 18pt;
+    /*line-height: 120%;*/
+    font-family: Lato-Light, sans-serif;
+    color:#000000;
+    margin:0;
+    padding:0;
+}
+
+/*a {
+    font-size: 18pt;
+    font-family: Lato-Light, sans-serif;
+    color:#990000;
+}
+
+a :hover {
+    font-size: 18pt;
+    color:#fafafa;
+    font-family: Lato-Light, sans-serif;
+    background-color: #990000;
+}*/
+
+ul {
+    list-style-type:circle;
+    padding:0;
+    margin:0;
+    text-indent: 40px;
+    list-style-position: inside;
+}
+
+ul li {
+    line-height: 120%;
+}
+
+ul li ul {
+    text-indent: 80px;
+}
+
+h1{
+font-family:Lato-Thin, sans-serif;
+    font-size:36pt;
+    color:#990000;
+}
+
+h2{
+    font-family:Lato-Thin, sans-serif;
+    font-size:30pt;
+    color:#000000;
+    overflow:hidden;
+}
+
+h2:after {
+    background-color: #990000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 100%;
+    margin-right: -100%;
+    left: 20px;
+}
+
+h3{
+    font-family:Lato-Light, sans-serif;
+    font-size:24pt;
+    color:#990000;
+}
+
+h4{
+    font-family:Lato-Light, sans-serif;
+    font-size:18pt;
+    color:#000000;
+    text-transform: uppercase;
+}
+
+h5{
+    font-family:Lato-Light, sans-serif;
+    font-size:18pt;
+    color:#990000;
+    text-transform: uppercase;
+}
+
+h6{
+    font-family:Lato-Light, sans-serif;
+    font-size:16pt;
+    color:#000000;
+    text-transform: uppercase;
+}
+
+input {
+    border: 1px solid #900000;
+    font-size:18pt;
+    height:42px;
+    outline: 0;
+    float:left;
+    margin-right:15px;
+    background-color: transparent;
+}
+
+input.itext {
+    color:#333333;
+}
+
+input.isubmit {
+    color:#900000;
+}
+
+img {
+    border:0;
+}
+
+
+blockquote {
+    display:table;
+    padding:10px 20px;
+    border-left: solid 1px #990000;
+    border-top:solid 1px #333333;
+    border-right:solid 1px #333333;
+    border-bottom:solid 1px #333333;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    /*background-color: grey;*/
+    border-spacing: 0 10px;
+}
+blockquote div{
+    display:table-row;
+}
+
+blockquote  p{
+    width:100%;
+    display:table-cell;
+    font-size: 18pt;
+    text-align: justify;
+    font-family: Lato-Light, sans-serif;
+    color:#000000;
+    text-indent: 18px;
+    /*background-color: red;
+    border:1px black solid;*/
+}
+
+blockquote  p::first-letter {
+    font-size: 24pt;
+    color: #990000;
+    font-family: Lato-Thin, sans-serif;
+}
+
+blockquote:before {
+    float:left;
+    position:relative;
+    margin-top: -90px;
+    top: 90px;
+    content: "\201C";
+    font-size: 50px;
+    color: #DDDEE0;
+    /*background-color: green;*/
+}
+blockquote:after {
+    float:right;
+    position:relative;
+    right:-20px;
+    content: "\201D";
+    font-size: 50px;
+    color: #DDDEE0;
+    /*background-color: green;*/
+    margin-bottom: -90px;
+    bottom:35px;
+}
+
+
+
+/***************************************WORDPRESS CONTENT INITIALISER ABOVE*****************************************************/
+
+#mainCont {
+    margin-top: -20px !important;
+    margin-bottom: 0!important;
+    padding: 0 !important;
+}
+html, html a {
+    -webkit-font-smoothing: subpixel-antialiased;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
+
+@font-face {
+    font-family: 'Lato-Regular';
+    src: url(personal-fonts/Lato-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Lato-Light';
+    src: url(personal-fonts/Lato-Light.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Lato-Thin';
+    src: url(personal-fonts/Lato-Thin.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Lato-Hairline';
+    src: url(personal-fonts/Lato-Hairline.ttf) format('truetype');
+}
+
+body {
+    /*color: #333333;*/
+    padding-top: -50px !important;
+}
+
+.my-fluid-container {
+
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+}
+
+.space20px {
+    height: 20px;
+    line-height: 20px;
+}
+
+.space25px {
+    height: 25px;
+    line-height: 25px;
+}
+
+.space35px {
+    height: 35px;
+    line-height: 35px;
+}
+
+/* Images */
+.entry-content img,
+.comment-content img,
+.widget img {
+    max-width: 100%; /* Fluid images for posts, comments, and widgets*/
+}
+img[class*="align"],
+img[class*="wp-image-"] {
+    height: auto; /* Make sure images with WordPress-added height and width attributes are scaled correctly*/
+}
+img.size-full {
+    max-width: 100%;
+    width: auto; /* Prevent stretching of full-size images with height and width attributes in IE8*/
+}

@@ -1,0 +1,2065 @@
+/*
+Theme Name: Rui's Website
+Theme URI: http://imaginaria.london/
+Description: A theme for a designer <a http://ruiyun.uk/site/index.html">website</a>.
+Author: Rui Yun Jiang
+Author URI: http://imaginaria.london/
+Version: 1.0
+Tags: responsive, white, bootstrap
+
+License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+License URI: http://creativecommons.org/licenses/by-sa/3.0/
+
+*/
+
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+/***********************************************LARGE SCREENS BELOW*************************************************************/
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+
+
+@import url('bootstrap/css/bootstrap.min.css');
+@media screen and (min-width: 992px) {
+
+    #main {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    /**********************************************TOP LOGO BELOW*******************************************************************/
+    .boxLogoTop {
+        height: 280px;
+        line-height: 280px;
+        background-size:625px 625px;
+        background-position: 50% 62%;
+    }
+
+    /**********************************************TOP MENU BELOW*******************************************************************/
+    .boxMainHead {
+        height: 160px;
+        line-height: 160px;
+        /*background-color:blueviolet;*/
+    }
+
+    #row1 {
+        height: 50px;
+        line-height: 50px;
+    }
+
+    #row2 {
+        height: 25px;
+        line-height: 25px;
+    }
+
+    #row3 {
+        height: 16px;
+        line-height: 16px;
+        /*background-color:aquamarine;*/
+    }
+
+    #row4 {
+        height: 43px;
+        line-height: 43px;
+    }
+
+    #row5 {
+        height: 26px;
+        line-height: 26px;
+        /*background-color:aquamarine;*/
+    }
+
+    .colmn1 {
+        width: 333px;
+    }
+
+    .colmn2 {
+        width: 167px;
+    }
+    .colmn3 {
+        width: 40px;
+    }
+
+    #topMenu {
+        height: 160px;
+        width: 540px;
+        line-height: 160px;
+        /*border:solid 1px black;*/
+    }
+    /**********************************************SPACE BETWEEN TOP MENU AND TITLE**************************************************/
+    #betweenTopMenuTitle{
+        height:60px;
+        line-height: 60px;
+        /*background-color: red;*/
+    }
+    /**********************************************SECOND HEADLINE BELOW************************************************************/
+
+    .SecondHeadSideLines {
+        height: 140px;
+        /*background-color: lawngreen;*/
+    }
+
+    .SecondHeadSide {
+        /*background-color: lawngreen;*/
+        height: 140px;
+        line-height: 140px;
+        font-size: 36px;
+    }
+    /**********************************************SPACE BETWEEN TITLE AND DATE BOX************************************************/
+    #betweenTitleDateBox{
+        height:12px;
+        line-height: 12px;
+        /*background-color: red;*/
+    }
+    /**********************************************DATE BOX BELOW*******************************************************************/
+
+    .DateBox {
+        height: 320px;
+        line-height: 320px;
+    }
+
+    #centeredDateBox {
+        width: 400px;
+        height: 150px;
+        top: 85px;
+    }
+
+    #row0Date {
+        height: 30px;
+        line-height: 30px;
+        /* background-color:red;*/
+    }
+
+    #row1Date {
+        height: 40px;
+        line-height: 40px;
+        /* background-color:red;*/
+    }
+
+    #col1Date {
+        height: 40px;
+        line-height: 40px;
+    }
+
+    #Headline {
+        font-size: 27pt;
+        /*background-color:red;*/
+    }
+
+    #row2Date {
+        height: 10px;
+        line-height: 10px;
+    }
+
+    #col2Date {
+        height: 10px;
+        line-height: 10px;
+    }
+
+    .DatelineCont {
+        height: 10px;
+        /*background-color: lawngreen;*/
+    }
+
+    #row23Date {
+        height: 5px;
+        line-height: 5px;
+        /* background-color:red;*/
+    }
+
+    #row3Date {
+        height: 30px;
+        line-height: 30px;
+    }
+
+    #col3Date {
+        height: 30px;
+        line-height: 30px;
+    }
+
+    #Date {
+        font-size: 18pt;
+        /*background-color:red;*/
+    }
+
+    .row34Date {
+        height: 5px;
+        line-height: 5px;
+        /* background-color:red;*/
+    }
+
+    #row4Date {
+        height: 18px;
+        line-height: 18px;
+    }
+
+    #col4Date {
+        height: 18px;
+        line-height: 18px;
+    }
+
+    #Comment {
+        font-size: 10pt;
+        /*background-color: yellow;*/
+    }
+
+    #row5Date {
+        height: 12px;
+        line-height: 12px;
+    }
+
+    /**********************************************FEATURES-THUMBNAILS-BELOW************************************************************/
+
+    #graphicBorder, #illusBorder, #aboutBorder, #photographyBorder {
+        padding-bottom: calc(100% - 22px);
+        margin-bottom: calc((100% - 21px)*(-1));
+    }
+    #filmAnBorder {
+        padding-bottom: calc(50% - 31px);
+        margin-bottom: calc((50% - 30px)*(-1));
+    }
+    .featuredSecGraph, .featuredSecIllus, .featuredSecAbout, .featuredSecPhotography {
+        padding-bottom: calc(100% - 22px);
+        margin-bottom: -70px;
+    }
+    .featuredSecFilmAn {
+        padding-bottom: calc(50% - 31px);
+    }
+    #featuredBoxGraph, #featuredBoxIllus, #featuredBoxPhotography, #featuredBoxAbout, #featuredBoxFilmAn {
+        width: 100%;
+        height: 70px;
+    }
+    #featuredBoxAbout {
+        margin-bottom: -70px;
+    }
+    #featuredBoxFilmAn {
+        margin-bottom: -70px;
+        background-color: rgba(255, 255, 255, 0.5);
+        border-right: solid 1px rgba(54, 54, 54, 0.5);
+        position: relative;
+        z-index: 1;
+    }
+    .wFeatured {
+        font-size: 22pt;
+        height: 70px;
+        line-height: 70px;
+    }
+
+    #wGD {
+        margin-right: 10px;
+    }
+
+    #wIL {
+        margin-left: 10px;
+    }
+
+    #wPH {
+        margin-right: 10px;
+    }
+
+    #wAB {
+        margin-right: 10px;
+    }
+
+    #colGD {
+        padding-right: 7px;
+    }
+
+    #colIL {
+        padding-right: 11px;
+        padding-left: 11px;
+    }
+
+    #colPH, #colAB {
+        padding-left: 7px;
+    }
+
+    #colFA {
+        padding-right: 11px;
+    }
+    #wGD {
+        text-align: right;
+    }
+    #wIL {
+        text-align: left;
+    }
+    #wPH {
+        text-align: right;
+    }
+    #wAB {
+        text-align: right;
+    }
+    #wFA {
+        text-align: center;
+    }
+    /**********************************************SPACE BETWEEN THUMBNAILS AND SEARCH**************************************************/
+    #betweenThumbnailsSearch{
+        height:60px;
+        line-height: 60px;
+    }
+    /**********************************************SEARCH AREA BELOW****************************************************************/
+
+    .searchLineCont {
+        height: 48px;
+        /*background-color: #B8B894;*/
+    }
+
+    #searchStickCentralCol {
+        height:48px;
+        line-height:48px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .boxSearch {
+        /*background-color: #B8B894;*/
+        height: 48px;
+        line-height: 48px;
+    }
+
+    #colSearchButton {
+        height: 48px;
+        line-height: 48px;
+    }
+
+    #searchButton {
+        height: 42px;
+        width: calc(100% - 2px);
+        top:calc(50% - 22px);
+        left:1px;
+    }
+
+    #colSearchInput {
+        height: 48px;
+        line-height: 48px;
+    }
+
+    #searchSite[type=text], textarea {
+        font-size: 18pt;
+        height: 42px;
+        line-height: 42px;
+        width: calc(100% - 1px);
+        top:calc(50% - 22px);
+        /*background-color:green;*/
+    }
+    /**********************************************SPACE BETWEEN SEARCH AND SOCIAL**********************************************/
+    #betweenSearchSocial{
+        height:42px;
+        line-height: 42px;
+    }
+    /**********************************************SOCIAL CHOICE BELOW**************************************************************/
+
+    .boxSocial {
+        /*background-color:orange;*/
+        height: 52px;
+        line-height: 52px;
+    }
+
+    #socialContainer {
+        width: 50%;
+        height: 52px;
+    }
+
+    #socialContainer div {
+        height: 52px;
+    }
+
+    #socialContainer .lateral {
+        width: 8%;
+    }
+
+    #socialContainer .fullSpaceLine {
+        width: 6%;
+    }
+
+    #socialContainer .fullSpaceIcon {
+        width: 12%;
+    }
+
+    .socialLineCont {
+        height: 52px;
+        /*background-color: lawngreen;*/
+    }
+    /**********************************************SPACE BETWEEN SEARCH AND SOCIAL**********************************************/
+    #betweenSocialMail{
+        height: 25px;
+        line-height: 25px;
+    }
+    /**********************************************EMAIL LINE BELOW*****************************************************************/
+
+    .boxMail {
+        /*background-color: green;*/
+        height: 15px;
+        line-height: 15px;
+        letter-spacing: 2px;
+    }
+    #ruiMail {
+        font-size: 11pt;
+    }
+    #envelope {
+        font-size: 18pt;
+        top:3px;
+    }
+    /**********************************************SPACE BETWEEN MAIL AND COPYRIGHT*********************************************/
+    #betweenMailCopyright{
+        height: 8px;
+        line-height: 8px;
+    }
+    /**********************************************COPYRIGHT BELOW******************************************************************/
+
+    .boxCopyright {
+        height: 15px;
+        line-height: 15px;
+        font-size: 7pt;
+        letter-spacing: 2px;
+    }
+    /**********************************************SPACE BETWEEN COPYRIGHT AND BOTTOM LOGO***************************************/
+    #betweenCopyrightLogoBottom{
+        height: 42px;
+        line-height: 42px;
+    }
+    /**********************************************BOTTOM LOGO BELOW****************************************************************/
+
+    .boxLogoBottom {
+        height: 132px;
+        line-height: 132px;
+    }
+}
+
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+/*************************************LARGE SCREENS ABOVE - TABLETS BELOW*******************************************************/
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    #main {
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+    /**********************************************TOP LOGO BELOW*******************************************************************/
+    .boxLogoTop {
+        height: 300px;
+        line-height: 300px;
+        background-size:640px 640px;
+        background-position: 50% 100%;
+        margin-bottom:-180px;
+    }
+    #logoTop{
+        /*background-color:red;*/
+        padding-left:0;
+        padding-right:0;
+    }
+
+    /**********************************************TOP MENU BELOW*******************************************************************/
+    .boxMainHead {
+        height: 160px;
+        line-height: 160px;
+        /*background-color:blueviolet;*/
+    }
+
+    #row1 {
+        height: 50px;
+        line-height: 50px;
+    }
+
+    #row2 {
+        height: 25px;
+        line-height: 25px;
+    }
+
+    #row3 {
+        height: 16px;
+        line-height: 16px;
+        /*background-color:aquamarine;*/
+    }
+
+    #row4 {
+        height: 43px;
+        line-height: 43px;
+    }
+
+    #row5 {
+        height: 26px;
+        line-height: 26px;
+        /*background-color:aquamarine;*/
+    }
+
+    .colmn1 {
+        width: 333px;
+    }
+
+    .colmn2 {
+        width: 167px;
+    }
+    .colmn3 {
+        width: 40px;
+    }
+
+    #topMenu {
+        height: 160px;
+        width: 540px;
+        line-height: 160px;
+        /*border:solid 1px black;*/
+    }
+    /**********************************************SPACE BETWEEN TOP MENU AND TITLE**************************************************/
+    #betweenTopMenuTitle{
+        height:40px;
+        line-height: 40px;
+        /*background-color: red;*/
+    }
+    /**********************************************SECOND HEADLINE BELOW************************************************************/
+    .SecondHeadSideLines {
+        height: 140px;
+        /*background-color: lawngreen;*/
+    }
+
+    .SecondHeadSide {
+        /*background-color: lawngreen;*/
+        height: 140px;
+        line-height: 140px;
+        font-size: 36px;
+    }
+    /**********************************************SPACE BETWEEN TITLE AND DATE BOX**************************************************/
+    #betweenTitleDateBox{
+        height:12px;
+        line-height: 12px;
+        /*background-color: red;*/
+    }
+    /**********************************************DATE BOX BELOW*******************************************************************/
+
+    .DateBox {
+        height: 320px;
+        line-height: 320px;
+    }
+
+    #centeredDateBox {
+        width: 400px;
+        height: 150px;
+        top: 85px;
+    }
+
+    #row0Date {
+        height: 30px;
+        line-height: 30px;
+        /* background-color:red;*/
+    }
+
+    #row1Date {
+        height: 40px;
+        line-height: 40px;
+        /* background-color:red;*/
+    }
+
+    #col1Date {
+        height: 40px;
+        line-height: 40px;
+    }
+
+    #Headline {
+        font-size: 27pt;
+        /*background-color:red;*/
+    }
+
+    #row2Date {
+        height: 10px;
+        line-height: 10px;
+    }
+
+    #col2Date {
+        height: 10px;
+        line-height: 10px;
+    }
+
+    .DatelineCont {
+        height: 10px;
+        /*background-color: lawngreen;*/
+    }
+
+    #row23Date {
+        height: 5px;
+        line-height: 5px;
+        /* background-color:red;*/
+    }
+
+    #row3Date {
+        height: 30px;
+        line-height: 30px;
+    }
+
+    #col3Date {
+        height: 30px;
+        line-height: 30px;
+    }
+
+    #Date {
+        font-size: 18pt;
+        /*background-color:red;*/
+    }
+
+    .row34Date {
+        height: 5px;
+        line-height: 5px;
+        /* background-color:red;*/
+    }
+
+    #row4Date {
+        height: 18px;
+        line-height: 18px;
+    }
+
+    #col4Date {
+        height: 18px;
+        line-height: 18px;
+    }
+
+    #Comment {
+        font-size: 10pt;
+        /*background-color: yellow;*/
+    }
+
+    #row5Date {
+        height: 12px;
+        line-height: 12px;
+    }
+
+    /**********************************************FEATURES-THUMBNAILS-BELOW************************************************************/
+
+    #graphicBorder, #illusBorder, #aboutBorder, #filmAnBorder {
+        padding-bottom: 100%;
+        margin-bottom: calc(-100% - 2px);
+    }
+    #photographyBorder {
+        padding-bottom: 50%;
+        margin-bottom: calc(-50% - 2px);
+    }
+    .featuredSecGraph, .featuredSecIllus, .featuredSecAbout, .featuredSecFilmAn {
+        padding-bottom: calc(100% + 2px);
+    }
+    .featuredSecGraph, .featuredSecIllus, .featuredSecFilmAn {
+        margin-bottom: -70px;
+    }
+    .featuredSecPhotography {
+        padding-bottom: calc(50% + 2px);
+        margin-bottom: -70px;
+    }
+    #featuredBoxGraph, #featuredBoxIllus, #featuredBoxFilmAn, #featuredBoxAbout, #featuredBoxPhotography {
+        height: 70px;
+    }
+    #featuredBoxFilmAn{
+        margin-top: calc(100% + 2px);
+        margin-bottom: calc(-100% - 2px);
+    }
+    #featuredBoxAbout {
+        margin-top: calc(100% + 2px);
+        margin-bottom: calc(-100% - 2px);
+    }
+    #featuredBoxPhotography {
+        position: relative;
+        z-index: 1;
+        margin-bottom: -70px;
+    }
+
+    .wFeatured {
+        font-size: 22pt;
+        height: 70px;
+        line-height: 70px;
+    }
+
+    #wGD, #wIL, #wPH, #wAB, #wFA{
+        text-align: center;
+    }
+    #colGD{
+        padding-right: 10px;
+    }
+    #colIL{
+        padding-left: 10px;
+    }
+    #colFA{
+        padding-right: 10px;
+    }
+    #colAB{
+        padding-left: 10px;
+    }
+    /**********************************************SPACE BETWEEN THUMBNAILS AND SEARCH**************************************************/
+    #betweenThumbnailsSearch{
+        height:60px;
+        line-height: 60px;
+    }
+    /**********************************************SEARCH AREA BELOW****************************************************************/
+
+    .searchLineCont {
+        height: 48px;
+        /*background-color: #B8B894;*/
+    }
+
+    #searchStickCentralCol {
+        height:48px;
+        line-height:48px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .boxSearch {
+        /*background-color: #B8B894;*/
+        height: 48px;
+        line-height: 48px;
+    }
+
+    #colSearchButton {
+        height: 48px;
+        line-height: 48px;
+    }
+
+    #searchButton {
+        height: 42px;
+        width: calc(100% - 2px);
+        top:calc(50% - 22px);
+        left:1px;
+    }
+
+    #colSearchInput {
+        height: 48px;
+        line-height: 48px;
+    }
+
+    #searchSite[type=text], textarea {
+        font-size: 18pt;
+        height: 42px;
+        line-height: 42px;
+        width: calc(100% - 1px);
+        top:calc(50% - 22px);
+        /*background-color:green;*/
+    }
+    /**********************************************SPACE BETWEEN SEARCH AND SOCIAL**********************************************/
+    #betweenSearchSocial{
+        height:42px;
+        line-height: 42px;
+    }
+    /**********************************************SOCIAL CHOICE BELOW**************************************************************/
+
+    .boxSocial {
+        /*background-color:orange;*/
+        height: 52px;
+        line-height: 52px;
+    }
+
+    #socialContainer {
+        width: 50%;
+        height: 52px;
+    }
+
+    #socialContainer div {
+        height: 52px;
+    }
+
+    #socialContainer .lateral {
+        width: 8%;
+    }
+
+    #socialContainer .fullSpaceLine {
+        width: 6%;
+    }
+
+    #socialContainer .fullSpaceIcon {
+        width: 12%;
+    }
+
+    .socialLineCont {
+        height: 52px;
+        /*background-color: lawngreen;*/
+    }
+    /**********************************************SPACE BETWEEN SEARCH AND SOCIAL**********************************************/
+    #betweenSocialMail{
+        height: 25px;
+        line-height: 25px;
+    }
+    /**********************************************EMAIL LINE BELOW*****************************************************************/
+
+    .boxMail {
+        /*background-color: green;*/
+        height: 15px;
+        line-height: 15px;
+        letter-spacing: 2px;
+    }
+    #ruiMail {
+        font-size: 11pt;
+    }
+    #envelope {
+        font-size: 18pt;
+        top:3px;
+    }
+    /**********************************************SPACE BETWEEN MAIL AND COPYRIGHT*********************************************/
+    #betweenMailCopyright{
+        height: 8px;
+        line-height: 8px;
+    }
+    /**********************************************COPYRIGHT BELOW******************************************************************/
+
+    .boxCopyright {
+        height: 15px;
+        line-height: 15px;
+        font-size: 7pt;
+        letter-spacing: 2px;
+    }
+    /**********************************************SPACE BETWEEN COPYRIGHT AND BOTTOM LOGO***************************************/
+    #betweenCopyrightLogoBottom{
+        height: 42px;
+        line-height: 42px;
+    }
+    /**********************************************BOTTOM LOGO BELOW****************************************************************/
+
+    .boxLogoBottom {
+        height: 132px;
+        line-height: 132px;
+    }
+}
+
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+/*************************************TABLETS ABOVE - EXTRA SMALL SCREENS BELOW*************************************************/
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+
+@media screen and (min-width: 536px) and (max-width: 767px) {
+
+    #main {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    /**********************************************TOP LOGO BELOW*******************************************************************/
+    .boxLogoTop {
+        height: 280px;
+        line-height: 280px;
+    }
+    /**********************************************TOP MENU BELOW*******************************************************************/
+    #row1TopMenu {
+        font-size: 36pt;
+    }
+
+    #row2TopMenu {
+        font-size: 14pt;
+    }
+
+    .boxMainHead {
+        height: 160px;
+        line-height: 160px;
+        /*background-color:blueviolet;*/
+    }
+
+    #row1 {
+        height: 50px;
+        line-height: 50px;
+    }
+
+    #row2 {
+        height: 25px;
+        line-height: 25px;
+    }
+
+    #row3 {
+        height: 16px;
+        line-height: 16px;
+        /*background-color:aquamarine;*/
+    }
+
+    #row4 {
+        height: 43px;
+        line-height: 43px;
+    }
+
+    #row5 {
+        height: 26px;
+        line-height: 26px;
+        /*background-color:aquamarine;*/
+    }
+
+    .colmn1 {
+        width: 333px;
+    }
+
+    .colmn2 {
+        width: 167px;
+    }
+    .colmn3 {
+        width: 40px;
+    }
+
+    #topMenu {
+        height: 160px;
+        width: 540px;
+        line-height: 160px;
+        /*border:solid 1px black;*/
+    }
+    /**********************************************SPACE BETWEEN TOP MENU AND TITLE**************************************************/
+    #betweenTopMenuTitle{
+        height:30px;
+        line-height: 30px;
+        /*background-color: red;*/
+    }
+
+    /**********************************************SECOND HEADLINE BELOW************************************************************/
+
+    #deskHomeLeft{
+        padding-left:0;
+    }
+    #deskHomeRight{
+        padding-right:0;
+    }
+    .SecondHeadSideLines {
+        height: 18pt;
+        /*background-color: lawngreen;*/
+    }
+
+    .SecondHeadSide {
+        /*background-color: lawngreen;*/
+        height: 18pt;
+        line-height: 18pt;
+        font-size: 18pt;
+    }
+    /**********************************************SPACE BETWEEN TITLE AND DATE BOX**************************************************/
+    #betweenTitleDateBox{
+        height:25px;
+        line-height: 25px;
+        /*background-color: red;*/
+    }
+
+    /**********************************************DATE BOX BELOW*******************************************************************/
+
+    .DateBox {
+        height: 320px;
+        line-height: 320px;
+    }
+
+    #centeredDateBox {
+        width: 400px;
+        height: 150px;
+        top: 85px;
+    }
+
+    #row0Date {
+        height: 30px;
+        line-height: 30px;
+        /* background-color:red;*/
+    }
+
+    #row1Date {
+        height: 40px;
+        line-height: 40px;
+        /* background-color:red;*/
+    }
+
+    #col1Date {
+        height: 40px;
+        line-height: 40px;
+    }
+
+    #Headline {
+        font-size: 27pt;
+        /*background-color:red;*/
+    }
+
+    #row2Date {
+        height: 10px;
+        line-height: 10px;
+    }
+
+    #col2Date {
+        height: 10px;
+        line-height: 10px;
+    }
+
+    .DatelineCont {
+        height: 10px;
+        /*background-color: lawngreen;*/
+    }
+
+    #row23Date {
+        height: 5px;
+        line-height: 5px;
+        /* background-color:red;*/
+    }
+
+    #row3Date {
+        height: 30px;
+        line-height: 30px;
+    }
+
+    #col3Date {
+        height: 30px;
+        line-height: 30px;
+    }
+
+    #Date {
+        font-size: 18pt;
+        /*background-color:red;*/
+    }
+
+    .row34Date {
+        height: 5px;
+        line-height: 5px;
+        /* background-color:red;*/
+    }
+
+    #row4Date {
+        height: 18px;
+        line-height: 18px;
+    }
+
+    #col4Date {
+        height: 18px;
+        line-height: 18px;
+    }
+
+    #Comment {
+        font-size: 10pt;
+        /*background-color: yellow;*/
+    }
+
+    #row5Date {
+        height: 12px;
+        line-height: 12px;
+    }
+
+    /**********************************************FEATURES-THUMBNAILS-BELOW************************************************************/
+
+    #graphicBorder, #illusBorder, #aboutBorder, #photographyBorder, #filmAnBorder {
+        padding-bottom: 50%;
+        margin-bottom: calc(-50% - 1.2px);
+    }
+
+    .featuredSecGraph, .featuredSecIllus, .featuredSecPhotography, .featuredSecFilmAn, .featuredSecAbout {
+        padding-bottom: 50%;
+    }
+    .featuredSecGraph, .featuredSecIllus, .featuredSecPhotography{
+        margin-bottom: calc(-25% - 35px);/*it was -70px*/
+    }
+    .featuredSecFilmAn, .featuredSecAbout{
+        margin-bottom: 0; /*calc(25% + 35px);*//*it was 0px*/
+    }
+
+    #featuredBoxGraph, #featuredBoxIllus, #featuredBoxPhotography, #featuredBoxFilmAn, #featuredBoxAbout {
+        height: 70px;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    #featuredBoxGraph, #featuredBoxIllus, #featuredBoxPhotography{
+        margin-bottom: calc(25% - 35px);
+    }
+    #featuredBoxFilmAn, #featuredBoxAbout{
+        margin-bottom: calc(-25% - 35px);/*calc(-50% + 35px);*//*it was -70px*/
+        margin-top: calc(25% - 35px);
+    }
+    .wFeatured {
+        font-size: 22pt;
+        height: 70px;
+        line-height: 70px;
+    }
+    .firstLetter{
+        color:#990000;
+        font-size:36pt;
+        vertical-align: bottom;
+    }
+    #wGD, #wIL, #wPH, #wAB, #wFA   {
+        text-align: center;
+    }
+    /**********************************************SPACE BETWEEN THUMBNAILS AND SEARCH**************************************************/
+    #betweenThumbnailsSearch{
+        height:20px;
+        line-height: 20px;
+    }
+    /**********************************************SEARCH AREA BELOW****************************************************************/
+
+    .searchLineCont {
+        height: 48px;
+        /*background-color: #B8B894;*/
+    }
+
+    #searchStickCentralCol {
+        height:70px;/*it was 48*/
+        line-height:70px;/*it was 48*/
+        /*padding-left: 0;
+        padding-right: 0;*/
+    }
+
+    .boxSearch {
+        /*background-color: #B8B894;*/
+        height: 70px;
+        line-height: 70px;
+        font-size: 22pt;/*it was 18*/
+    }
+
+    #colSearchButton {
+        height: 70px;
+        line-height: 70px;
+    }
+
+    #searchButton {
+        height: 68px;
+        width: calc(100% - 2px);
+        top:calc(50% - 35px);
+        left:1px;
+    }
+
+    #colSearchInput {
+        height: 70px;
+        line-height: 70px;
+    }
+
+    #searchSite[type=text], textarea {
+        font-size: 22pt;
+        height: 68px;
+        line-height: 68px;
+        width: calc(100% /*- 1px*/);
+        top:calc(50% - 35px);
+        /*background-color:green;*/
+    }
+    /**********************************************SPACE BETWEEN SEARCH AND SOCIAL**********************************************/
+    #betweenSearchSocial{
+        height:25px;
+        line-height: 25px;
+    }
+    /**********************************************SOCIAL CHOICE BELOW**************************************************************/
+
+    .boxSocial {
+        /*background-color:orange;*/
+        height: 70px;/*it was 52*/
+        line-height: 70px;
+    }
+
+    #socialContainer {
+        width: 100%;
+        height: 70px;
+        /*background-color:green;*/
+    }
+
+    #socialContainer div {
+        height: 70px;
+    }
+
+    #socialContainer .lateral {
+        width: 8%;
+    }
+
+    #socialContainer .fullSpaceLine {
+        width: 6%;
+    }
+
+    #socialContainer .fullSpaceIcon {
+        width: 12%;
+    }
+
+    .socialLineCont {
+        height: 70px;
+        /*background-color: lawngreen;*/
+    }
+    /**********************************************SPACE BETWEEN SOCIAL AND MAIL************************************************/
+    #betweenSocialMail{
+        height: 35px;
+        line-height: 35px;
+    }
+    /**********************************************EMAIL LINE BELOW*****************************************************************/
+
+    .boxMail {
+        /*background-color: green;*/
+        height: 15px;
+        line-height: 15px;
+        letter-spacing: 2px;
+    }
+    #envelope {
+        font-size: 22pt;
+        top:3px;
+    }
+    #ruiMail {
+        font-size: 14pt;
+    }
+    /**********************************************SPACE BETWEEN MAIL AND COPYRIGHT*********************************************/
+    #betweenMailCopyright{
+        height: 30px;
+        line-height: 30px;
+    }
+    /**********************************************COPYRIGHT BELOW******************************************************************/
+
+    .boxCopyright {
+        height: 15px;
+        line-height: 15px;
+        font-size: 8pt;
+        letter-spacing: 2px;
+    }
+    /**********************************************SPACE BETWEEN COPYRIGHT AND BOTTOM LOGO***************************************/
+    #betweenCopyrightLogoBottom{
+        height: 35px;
+        line-height: 35px;
+    }
+    /**********************************************BOTTOM LOGO BELOW****************************************************************/
+
+    .boxLogoBottom {
+        height: 132px;
+        line-height: 132px;
+    }
+}
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+/*************************************EXTRA SMALL SCREENS ABOVE - MOBILES BELOW*************************************************/
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+
+@media screen and (max-width: 535px) {
+
+    #main {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    /**********************************************TOP LOGO BELOW*******************************************************************/
+    .boxLogoTop {
+        height: 280px;
+        line-height: 280px;
+    }
+    /**********************************************TOP MENU BELOW*******************************************************************/
+    #row1TopMenu {
+        font-size: 32pt;
+    }
+
+    #row2TopMenu {
+        font-size: 13pt;
+    }
+
+    .boxMainHead {
+        height: 160px;
+        line-height: 160px;
+        /*background-color:blueviolet;*/
+    }
+    #row1 {
+        height: 50px;
+        line-height: 50px;
+    }
+
+    #row2 {
+        height: 25px;
+        line-height: 25px;
+    }
+
+    #row3 {
+        height: 16px;
+        line-height: 16px;
+        /*background-color:aquamarine;*/
+    }
+
+    #row4 {
+        height: 43px;
+        line-height: 43px;
+    }
+
+    #row5 {
+        height: 26px;
+        line-height: 26px;
+        /*background-color:aquamarine;*/
+    }
+
+    .colmn1 {
+        width: 333px;
+    }
+
+    .colmn2 {
+        width: 167px;
+    }
+    .colmn3 {
+        width: 40px;
+    }
+
+    #topMenu {
+        height: 160px;
+        width: 540px;
+        line-height: 160px;
+        /*border:solid 1px black;*/
+    }
+    /**********************************************SPACE BETWEEN TOP MENU AND TITLE**************************************************/
+    #betweenTopMenuTitle{
+        height:30px;
+        line-height: 30px;
+        /*background-color: red;*/
+    }
+
+    /**********************************************SECOND HEADLINE BELOW************************************************************/
+
+    #deskHomeLeft{
+        padding-left:0;
+    }
+    #deskHomeRight{
+        padding-right:0;
+    }
+    .SecondHeadSideLines {
+        height: 18pt;
+        /*background-color: lawngreen;*/
+    }
+
+    .SecondHeadSide {
+        /*background-color: lawngreen;*/
+        height: 18pt;
+        line-height: 18pt;
+        font-size: 18pt;
+    }
+    /**********************************************SPACE BETWEEN TITLE AND DATE BOX**************************************************/
+    #betweenTitleDateBox{
+        height:25px;
+        line-height: 25px;
+        /*background-color: red;*/
+    }
+
+    /**********************************************DATE BOX BELOW*******************************************************************/
+
+    .DateBox {
+        height: 320px;
+        line-height: 320px;
+    }
+
+    #centeredDateBox {
+        width: 400px;
+        height: 150px;
+        top: 85px;
+    }
+
+    #row0Date {
+        height: 30px;
+        line-height: 30px;
+        /* background-color:red;*/
+    }
+
+    #row1Date {
+        height: 40px;
+        line-height: 40px;
+        /* background-color:red;*/
+    }
+
+    #col1Date {
+        height: 40px;
+        line-height: 40px;
+    }
+
+    #Headline {
+        font-size: 27pt;
+        /*background-color:red;*/
+    }
+
+    #row2Date {
+        height: 10px;
+        line-height: 10px;
+    }
+
+    #col2Date {
+        height: 10px;
+        line-height: 10px;
+    }
+
+    .DatelineCont {
+        height: 10px;
+        /*background-color: lawngreen;*/
+    }
+
+    #row23Date {
+        height: 5px;
+        line-height: 5px;
+        /* background-color:red;*/
+    }
+
+    #row3Date {
+        height: 30px;
+        line-height: 30px;
+    }
+
+    #col3Date {
+        height: 30px;
+        line-height: 30px;
+    }
+
+    #Date {
+        font-size: 18pt;
+        /*background-color:red;*/
+    }
+
+    .row34Date {
+        height: 5px;
+        line-height: 5px;
+        /* background-color:red;*/
+    }
+
+    #row4Date {
+        height: 18px;
+        line-height: 18px;
+    }
+
+    #col4Date {
+        height: 18px;
+        line-height: 18px;
+    }
+
+    #Comment {
+        font-size: 10pt;
+        /*background-color: yellow;*/
+    }
+
+    #row5Date {
+        height: 12px;
+        line-height: 12px;
+    }
+
+    /**********************************************FEATURES-THUMBNAILS-BELOW************************************************************/
+
+    #graphicBorder, #illusBorder, #aboutBorder, #photographyBorder, #filmAnBorder {
+        padding-bottom: 50%;
+        margin-bottom: calc(-50% - 1.2px);
+    }
+
+    .featuredSecGraph, .featuredSecIllus, .featuredSecPhotography, .featuredSecFilmAn, .featuredSecAbout {
+        padding-bottom: 50%;
+    }
+    .featuredSecGraph, .featuredSecIllus, .featuredSecPhotography{
+        margin-bottom: calc(-25% - 35px);/*it was -70px*/
+    }
+    .featuredSecFilmAn, .featuredSecAbout{
+        margin-bottom: 0; /*calc(25% + 35px);*//*it was 0px*/
+    }
+
+    #featuredBoxGraph, #featuredBoxIllus, #featuredBoxPhotography, #featuredBoxFilmAn, #featuredBoxAbout {
+        height: 70px;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    #featuredBoxGraph, #featuredBoxIllus, #featuredBoxPhotography{
+        margin-bottom: calc(25% - 35px);
+    }
+    #featuredBoxFilmAn, #featuredBoxAbout{
+        margin-bottom: calc(-25% - 35px);/*calc(-50% + 35px);*//*it was -70px*/
+        margin-top: calc(25% - 35px);
+    }
+    .wFeatured {
+        font-size: 12pt;
+        height: 70px;
+        line-height: 70px;
+    }
+    .firstLetter{
+        color:#990000;
+        font-size:22pt;
+        vertical-align: bottom;
+    }
+    #wGD, #wIL, #wPH, #wAB, #wFA   {
+        text-align: center;
+    }
+    /**********************************************SPACE BETWEEN THUMBNAILS AND SEARCH**************************************************/
+    #betweenThumbnailsSearch{
+        height:20px;
+        line-height: 20px;
+    }
+    /**********************************************SEARCH AREA BELOW****************************************************************/
+
+    .searchLineCont {
+        height: 48px;
+        /*background-color: #B8B894;*/
+    }
+
+    #searchStickCentralCol {
+        height:70px;/*it was 48*/
+        line-height:70px;/*it was 48*/
+        /*padding-left: 0;
+        padding-right: 0;*/
+    }
+
+    .boxSearch {
+        /*background-color: #B8B894;*/
+        height: 70px;
+        line-height: 70px;
+    }
+
+    #colSearchButton {
+        height: 70px;
+        line-height: 70px;
+    }
+
+    #searchButton {
+        height: 68px;
+        width: calc(100% - 2px);
+        top:calc(50% - 35px);
+        left:1px;
+    }
+
+    #colSearchInput {
+        height: 70px;
+        line-height: 70px;
+    }
+
+    #searchSite[type=text], textarea {
+        font-size: 16pt;/*it was 22pt*/
+        height: 68px;
+        line-height: 68px;
+        width: 100%;
+        top:calc(50% - 35px);
+        /*background-color:green;*/
+    }
+    /**********************************************SPACE BETWEEN SEARCH AND SOCIAL**********************************************/
+    #betweenSearchSocial{
+        height:25px;
+        line-height: 25px;
+    }
+    /**********************************************SOCIAL CHOICE BELOW**************************************************************/
+
+    .boxSocial {
+        /*background-color:orange;*/
+        height: 70px;/*it was 52*/
+        line-height: 70px;
+    }
+
+    #socialContainer {
+        width: 100%;
+        height: 70px;
+        /*background-color:green;*/
+    }
+
+    #socialContainer div {
+        height: 70px;
+    }
+
+    #socialContainer .lateral {
+        width: 8%;
+    }
+
+    #socialContainer .fullSpaceLine {
+        width: 6%;
+    }
+
+    #socialContainer .fullSpaceIcon {
+        width: 12%;
+    }
+
+    .socialLineCont {
+        height: 70px;
+        /*background-color: lawngreen;*/
+    }
+    /**********************************************SPACE BETWEEN SOCIAL AND MAIL************************************************/
+    #betweenSocialMail{
+        height: 35px;
+        line-height: 35px;
+    }
+    /**********************************************EMAIL LINE BELOW*****************************************************************/
+
+    .boxMail {
+        /*background-color: green;*/
+        height: 15px;
+        line-height: 15px;
+        letter-spacing: 2px;
+    }
+    #envelope {
+        font-size: 22pt;
+        top:3px;
+    }
+    #ruiMail {
+        font-size: 14pt;
+    }
+    /**********************************************SPACE BETWEEN MAIL AND COPYRIGHT*********************************************/
+    #betweenMailCopyright{
+        height: 30px;
+        line-height: 30px;
+    }
+    /**********************************************COPYRIGHT BELOW******************************************************************/
+
+    .boxCopyright {
+        height: 15px;
+        line-height: 15px;
+        font-size: 8pt;
+        letter-spacing: 2px;
+    }
+    /**********************************************SPACE BETWEEN COPYRIGHT AND BOTTOM LOGO***************************************/
+    #betweenCopyrightLogoBottom{
+        height: 35px;
+        line-height: 35px;
+    }
+    /**********************************************BOTTOM LOGO BELOW****************************************************************/
+
+    .boxLogoBottom {
+        height: 132px;
+        line-height: 132px;
+    }
+}
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+/***********************************************GENERAL CSS BELOW***************************************************************/
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+@font-face {
+    font-family: 'Lato-Thin';
+    src: url(personal-fonts/Lato-Thin.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Lato-Regular';
+    src: url(personal-fonts/Lato-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Lato-Light';
+    src: url(personal-fonts/Lato-Light.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Lato-Hairline';
+    src: url(personal-fonts/Lato-Hairline.ttf) format('truetype');
+}
+body {
+    color: #333333;
+}
+.my-fluid-container {
+
+    padding-left: 0;
+
+    padding-right: 0;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+}
+
+.space3px {
+    height: 3px;
+    line-height: 3px;
+}
+
+.space5px {
+    height: 5px;
+    line-height: 5px;
+}
+
+.space8px {
+    height: 8px;
+    line-height: 8px;
+}
+
+.space10px {
+    height: 10px;
+    line-height: 10px;
+}
+
+.space12px {
+    height: 12px;
+    line-height: 12px;
+}
+
+.space18px {
+    height: 18px;
+    line-height: 18px;
+}
+
+.space20px {
+    height: 20px;
+    line-height: 20px;
+}
+.space20pt {
+    height: 20pt;
+    line-height: 20pt;
+}
+
+.space25px {
+    height: 25px;
+    line-height: 25px;
+}
+
+.space30px {
+    height: 30px;
+    line-height: 30px;
+}
+.space30pt {
+    height: 30pt;
+    line-height: 30pt;
+}
+.space35pt {
+    height: 35pt;
+    line-height: 35pt;
+}
+.space40px {
+    height: 40px;
+    line-height: 40px;
+}
+
+.space42px {
+    height: 42px;
+    line-height: 42px;
+}
+
+.space48px {
+    height: 48px;
+    line-height: 48px;
+}
+
+.space60px {
+    height: 60px;
+    line-height: 60px;
+}
+
+/**********************************************TOP LOGO BELOW*******************************************************************/
+
+.boxLogoTop {
+    background-image: url(/wp-content/uploads/DecoFull.jpg);
+    background-repeat: no-repeat;
+}
+#port, #proCont {
+    /*background-color:rgba(100, 120, 30, .5);*/
+    height: 100%;
+    width: 100%;
+}
+
+/**********************************************TOP MENU BELOW*******************************************************************/
+
+#topMenu {
+    background-image: url(/wp-content/uploads/MainTitle.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#row1TopMenu {
+    /*background-color: #008000;*/
+    height: 36pt;
+    line-height: 36pt;
+    font-family: Lato-Hairline, sans-serif;
+
+}
+#row2TopMenu {
+    /*background-color: darkorange;*/
+    height: 14pt;
+    line-height: 14pt;
+    font-family: Lato-Light, sans-serif;
+}
+#ruiYunMob{
+    color:#990000;
+}
+#row2TopMenu a{
+    text-decoration: none;
+    color:#333333;
+}
+#row2TopMenu a:hover{
+    color:#990000;
+}
+
+
+/**********************************************SECOND HEADLINE BELOW************************************************************/
+
+#deskHomeCent {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.SecondHeadSideline {
+    line-height: 0;
+    border-bottom: 1px solid #990000;
+    top: 50%;
+    position: relative;
+}
+.SecondHeadSide {
+    font-family: Lato-Thin, sans-serif;
+}
+
+/**********************************************DATE BOX BELOW*******************************************************************/
+
+.DateBox {
+    background-image: url(/wp-content/uploads/sample1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid #000000;
+}
+#centeredDateBox {
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+#col1Date {
+    padding-left: 0;
+    padding-right: 0;
+}
+#Headline {
+    font-family: Lato-Light, sans-serif;
+}
+#col2Date {
+    padding-left: 0;
+    padding-right: 0;
+}
+.boxDateline {
+    margin-left: auto;
+    margin-right: auto;
+    width: 93%;
+    line-height: 0;
+    border-bottom: 1px solid #990000;
+    top: 50%;
+    position: relative;
+}
+#col3Date {
+    padding-left: 0;
+    padding-right: 0;
+}
+#Date {
+    font-family: Lato-Light, sans-serif;
+    font-size: 18pt;
+    /*background-color:red;*/
+}
+#col4Date {
+    padding-left: 0;
+    padding-right: 0;
+}
+#Comment {
+    font-family: Lato-Regular, sans-serif;
+}
+
+/**********************************************FEATURES-THUMBNAILS-BELOW************************************************************/
+#graphicBorder, #illusBorder, #aboutBorder, #photographyBorder, #filmAnBorder  {
+    border: solid 1px #000000;
+    position: relative;
+    z-index: 2;
+}
+#featuredSecGraph, #featuredSecIllus, #featuredSecAbout, .featuredSecPhotography, {
+    position: relative;
+    z-index: 0;
+}
+#featuredBoxGraph, #featuredBoxIllus, #featuredBoxAbout, #featuredBoxPhotography, #featuredBoxFilmAn {
+    background-color: rgba(255, 255, 255, 0.7);
+    position: relative;
+    z-index: 1;
+}
+
+.wFeatured {
+    font-family: Lato-Light, sans-serif;
+    text-transform: uppercase;
+}
+.featureLink {
+    color: #333333;
+    text-decoration: none;
+}
+.featureLink:hover {
+    color: #990000 !important;
+    text-decoration: none;
+}
+.featureLink:focus {
+    color: #333333;
+    text-decoration: none;
+}
+
+#graphDes {
+    background-image: url(/wp-content/uploads/sample2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#illus {
+    background-image: url(/wp-content/uploads/sample3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#photo {
+    background-image: url(/wp-content/uploads/sample4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#filan {
+    background-image: url(/wp-content/uploads/sample5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#about {
+    background-image: url(/wp-content/uploads/sample6.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/**********************************************SEARCH AREA BELOW****************************************************************/
+
+#lineStickLeftCol {
+    padding-right: 0;
+}
+.boxSearchLine {
+    line-height: 0;
+    border-bottom: 1px solid #990000;
+    top: 50%;
+    position: relative;
+}
+.boxSearch {
+    border: 1px solid #990000;
+}
+#colSearchButton {
+    padding-left: 0;
+    padding-right: 0;
+    /*background-color:red;*/
+    display: block;
+}
+#searchButton {
+    border: none;
+    background-color: white;
+    background-image: url(/wp-content/uploads/search50.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    /*background-color:green;*/
+    display: block;
+    position: relative;
+}
+#searchButton:focus {
+    border: none;
+    outline: none;
+    box-shadow: none !important;
+}
+#searchButton:active {
+    background-color: #E1E1E1;
+    border: none;
+    outline: none;
+    box-shadow: inset 2px 2px 1px #A3A3A3, inset -2px -2px 1px #A3A3A3 !important;
+}
+
+#colSearchInput {
+    padding-left: 0;
+    padding-right: 0;
+    /*background-color:red;*/
+    display: block;
+}
+#searchSite[type=text], textarea {
+    text-align: center;
+    font-family: Lato-Thin, sans-serif;
+    background-color: #EDEDED;
+    border: none;
+    outline: none;
+    box-shadow: none !important;
+    display: block;
+    position: relative;
+    /*background-color:green;*/
+}
+#lineStickRightCol {
+    padding-left: 0;
+}
+
+/**********************************************SOCIAL CHOICE BELOW**************************************************************/
+#socialContainer {
+    margin-left: auto;
+    margin-right: auto;
+    /*background-color:lightgoldenrodyellow;*/
+}
+#socialContainer div {
+    float: left;
+    /*background-color:blueviolet;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+.socialLineCont {
+    width: 100%;
+}
+
+.socialLine {
+    width: 100%;
+    line-height: 0;
+    border-top: 1px solid #990000;
+    top: 50%;
+    position: relative;
+    /*background-color: goldenrod;*/
+}
+
+#beh, #beh:hover, #dribble,
+#dribble:hover, #linkedIn, #linkedIn:hover,
+#twitter, #twitter:hover, #ins, #ins:hover {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#beh {
+    background-image: url(/wp-content/uploads/icon-be.png);
+}
+
+#beh:hover {
+    background-image: url(/wp-content/uploads/icon-be-bw.png);
+}
+
+#dribble {
+    background-image: url(/wp-content/uploads/icon-dr.png);
+}
+
+#dribble:hover {
+    background-image: url(/wp-content/uploads/icon-dr-bw.png);
+}
+
+#linkedIn {
+    /*background-color: cyan;*/
+    background-image: url(/wp-content/uploads/icons-li.png);
+
+}
+
+#linkedIn:hover {
+    /*background-color: cyan;*/
+    background-image: url(/wp-content/uploads/icons-li-bw.png);
+
+}
+
+#twitter {
+    /*background-color: yellow;*/
+    background-image: url(/wp-content/uploads/icons-tw.png);
+
+}
+
+#twitter:hover {
+    /*background-color: yellow;*/
+    background-image: url(/wp-content/uploads/icons-tw-bw.png);
+
+}
+
+#ins {
+    /*background-color: lightpink;*/
+    background-image: url(/wp-content/uploads/icons-in.png);
+
+}
+
+#ins:hover {
+    /*background-color: lightpink;*/
+    background-image: url(/wp-content/uploads/icons-in-bw.png);
+}
+
+/**********************************************EMAIL LINE BELOW*****************************************************************/
+
+#envelope {
+    position: relative;
+}
+
+#ruiMail {
+    font-family: Lato-Regular, sans-serif;
+    color: #333333;
+    text-decoration: none;
+}
+
+#ruiMail:hover {
+    color: #990000;
+    text-decoration: underline;
+}
+
+/**********************************************COPYRIGHT BELOW******************************************************************/
+
+.boxCopyright {
+    font-family: Lato-Regular, sans-serif;
+}
+
+.nameLink {
+    color: #333333;
+    text-decoration: none;
+}
+
+.nameLink:hover {
+    color: #990000;
+    text-decoration: underline;
+}
+
+/**********************************************BOTTOM LOGO BELOW****************************************************************/
+
+.boxLogoBottom {
+    background-image: url(/wp-content/uploads/DecoFull.jpg);
+    background-repeat: no-repeat;
+    background-position:50% 0;
+}

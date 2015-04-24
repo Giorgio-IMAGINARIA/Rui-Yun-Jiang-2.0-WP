@@ -1,0 +1,642 @@
+﻿{}/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+/***************************************VERY LARGE SCREEN ABOVE - LARGE SCREENS BELOW*******************************************/
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+@media screen and (min-width: 1620px)  {
+
+    /**********************************************SECOND HEADLINE BELOW***********************************************************/
+
+    .SecondHeadSideLines {
+        height: 50px;
+        /*background-color: lawngreen;*/
+    }
+
+    .SecondHeadSide {
+        /*background-color: lawngreen;*/
+        height: 50px;
+        line-height: 50px;
+        font-size: 50px;
+        font-family: Lato-Thin, sans-serif;
+    }
+
+    .SecondHeadSide p {
+        font-size: 50px;
+        font-family: Lato-Thin, sans-serif;
+    }
+
+    /**********************************************SPACE BELOW TITLE****************************************************************/
+    #belowTitle{
+        height:200px;
+        line-height: 200px;
+        /*background-color: red;*/
+    }
+    /******************************************************DESCRIPTION-BELOW************************************************************/
+
+    #deskCont {
+        width:100%;
+    }
+
+    #deskCont p {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        font-family: Lato-Light, sans-serif;
+        font-size:18pt;
+    }
+
+    #deskCont img {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    /**********************************************SPACE-BETWEEN-THUMBNAILS-PAGES-LINE*************************************************/
+
+    #betweenThumbnailsBack {
+        height:200px;
+        line-height: 200px;
+        /*background-color: salmon;*/
+    }
+
+    /*************************************************************BACK-BELOW***********************************************************/
+
+    #back {
+        height: 27px;
+        lineheight:27px;
+        margin: 0;
+        /*background-color: red;*/
+        padding-left:0;
+        padding-right:0;
+    }
+
+    .backSide {
+        height:inherit;
+        line-height:inherit;
+        /*background-color: lawngreen;*/
+        float:left;
+        width:calc((100% - 304px) / 2);
+    }
+
+    #backCenter {
+        position:relative;
+        top:calc(50% - 10pt);
+        /*background-color: khaki;*/
+        float:left;
+        width:304px;
+        font-family: Lato-Light, sans-serif;
+        font-size:14pt;
+        letter-spacing: 2px;
+    }
+
+    #backCenter span {
+        color:#990000;
+        font-family: Lato-Light, sans-serif;
+        font-size:14pt;
+        letter-spacing: 2px;
+    }
+
+    #backCenter a {
+        color: #333333;
+        font-family: Lato-Light, sans-serif;
+        font-size:14pt;
+        letter-spacing: 2px;
+    }
+
+    #backCenter a:hover {
+        text-decoration:none;
+        background-color:#990000;
+        color:#FFFFFF;
+    }
+
+}
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+/******************************************************LARGE SCREENS BELOW******************************************************/
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+@media screen and (min-width: 992px) and (max-width:1619px) {
+
+    /**********************************************SECOND HEADLINE BELOW***********************************************************/
+
+    .SecondHeadSideLines {
+        height: 36px;
+        /*background-color: red;*/
+    }
+
+    .SecondHeadSide {
+        /*background-color: lawngreen;*/
+        height: 36px;
+        line-height: 36px;
+        font-size: 36px;
+        font-family: Lato-Thin, sans-serif;
+    }
+
+    .SecondHeadSide p {
+        font-size: 36px;
+        font-family: Lato-Thin, sans-serif;
+    }
+
+    /**********************************************SPACE BELOW TITLE****************************************************************/
+    #belowTitle{
+        height:100px;
+        line-height: 100px;
+        /*background-color: red;*/
+    }
+    /******************************************************DESCRIPTION-BELOW************************************************************/
+
+    #deskCont {
+        width:100%;
+        font-family: Lato-Light, sans-serif;
+        font-size:18pt;
+    }
+
+    #deskCont p {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    #deskCont img {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    /**********************************************SPACE-BETWEEN-THUMBNAILS-PAGES-LINE*************************************************/
+
+    #betweenThumbnailsBack {
+        height:100px;
+        line-height: 100px;
+        /*background-color: salmon;*/
+    }
+
+    /*************************************************************BACK-BELOW***********************************************************/
+
+    #back {
+        height: 27px;
+        lineheight:27px;
+        margin: 0;
+        /*background-color: red;*/
+        padding-left:0;
+        padding-right:0;
+    }
+
+    .backSide {
+        height:inherit;
+        line-height:inherit;
+        /*background-color: lawngreen;*/
+        float:left;
+        width:calc((100% - 304px) / 2);
+    }
+
+    #backCenter {
+        position:relative;
+        top:calc(50% - 10pt);
+        /*background-color: khaki;*/
+        float:left;
+        width:304px;
+        font-family: Lato-Light, sans-serif;
+        font-size:14pt;
+        letter-spacing: 2px;
+    }
+
+    #backCenter span {
+        color:#990000;
+        font-family: Lato-Light, sans-serif;
+        font-size:14pt;
+        letter-spacing: 2px;
+    }
+
+    #backCenter a {
+        color: #333333;
+        font-family: Lato-Light, sans-serif;
+        font-size:14pt;
+        letter-spacing: 2px;
+    }
+
+    #backCenter a:hover {
+        text-decoration:none;
+        background-color:#990000;
+        color:#FFFFFF;
+    }
+
+}
+
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+/*************************************LARGE SCREENS ABOVE - TABLETS BELOW*******************************************************/
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    /**********************************************SECOND HEADLINE BELOW************************************************************/
+
+    .SecondHeadSideLines {
+        height: 36px;
+        /*background-color: lawngreen;*/
+    }
+
+    .SecondHeadSide {
+        /*background-color: lawngreen;*/
+        height: 36px;
+        line-height: 36px;
+        font-size: 36px;
+        font-family: Lato-Thin, sans-serif;
+    }
+
+    .SecondHeadSide p {
+        font-size: 36px;
+        font-family: Lato-Thin, sans-serif;
+    }
+
+    /**********************************************SPACE BELOW TITLE********************************************************************/
+
+    #belowTitle {
+        height:20px;
+        line-height: 20px;
+        /*background-color: red;*/
+    }
+
+    /******************************************************DESCRIPTION-BELOW************************************************************/
+
+    #deskCont {
+        width:100%;
+        font-family: Lato-Light, sans-serif;
+        font-size:18pt;
+    }
+
+    #deskCont p {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    #deskCont img {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    /**********************************************SPACE-BETWEEN-THUMBNAILS-PAGES-LINE*************************************************/
+
+    #betweenThumbnailsBack {
+        height:40px;
+        line-height: 40px;
+        /*background-color: salmon;*/
+    }
+
+    /*************************************************************BACK-BELOW***********************************************************/
+
+    #back {
+        height: 27px;
+        lineheight:27px;
+        margin: 0;
+        /*background-color: red;*/
+        padding-left:0;
+        padding-right:0;
+    }
+
+    .backSide {
+        height:inherit;
+        line-height:inherit;
+        /*background-color: lawngreen;*/
+        float:left;
+        width:calc((100% - 304px) / 2);
+    }
+
+    #backCenter {
+        position:relative;
+        top:calc(50% - 10pt);
+        /*background-color: khaki;*/
+        float:left;
+        width:304px;
+        font-family: Lato-Light, sans-serif;
+        font-size:14pt;
+        letter-spacing: 2px;
+    }
+
+    #backCenter span {
+        color:#990000;
+        font-family: Lato-Light, sans-serif;
+        font-size:14pt;
+        letter-spacing: 2px;
+    }
+
+    #backCenter a {
+        color: #333333;
+        font-family: Lato-Light, sans-serif;
+        font-size:14pt;
+        letter-spacing: 2px;
+    }
+
+    #backCenter a:hover {
+        text-decoration:none;
+        background-color:#990000;
+        color:#FFFFFF;
+    }
+
+}
+
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+/*************************************TABLETS ABOVE - EXTRA SMALL SCREENS BELOW*************************************************/
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+
+@media screen and (min-width: 536px) and (max-width: 767px) {
+
+    /**********************************************SECOND HEADLINE BELOW************************************************************/
+
+    #deskHomeLeft {
+        padding-left: 0;
+    }
+
+    #deskHomeRight {
+        padding-right: 0;
+    }
+
+    .SecondHeadSideLines {
+        height: 18pt;
+        /*background-color: lawngreen;*/
+    }
+
+    .SecondHeadSide {
+        /*background-color: lawngreen;*/
+        height: 18pt;
+        line-height: 18pt;
+        font-size: 18pt;
+        font-family: Lato-Light, sans-serif;
+    }
+
+    .SecondHeadSide p {
+        font-size: 18pt;
+        font-family: Lato-Light, sans-serif;
+    }
+
+    /**********************************************SPACE BELOW TITLE****************************************************************/
+
+    #belowTitle {
+        height: 30px;
+        line-height: 30px;
+        /*background-color: red;*/
+    }
+
+    /******************************************************DESCRIPTION-BELOW************************************************************/
+
+    #deskCont {
+        width:90%;
+        font-family: Lato-Regular, sans-serif;
+        font-size:12pt;
+    }
+
+    #deskCont p {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #deskCont img {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    /**********************************************SPACE-BETWEEN-THUMBNAILS-PAGES-LINE*************************************************/
+
+    #betweenThumbnailsBack {
+        height:50px;
+        line-height: 50px;
+        /*background-color: salmon;*/
+    }
+
+    /*************************************************************BACK-BELOW***********************************************************/
+
+    #back {
+        height: 20px;
+        lineheight:20px;
+        margin: 0;
+        /*background-color: red;*/
+        padding-left:0;
+        padding-right:0;
+    }
+
+    .backSide {
+        height:inherit;
+        line-height: inherit;
+        /*background-color: lawngreen;*/
+        float:left;
+        width:calc((100% - 270px) / 2);
+    }
+
+    .backSide div {
+        position:relative;
+        top:50%;
+        border-bottom: solid #990000 1px;
+    }
+
+    #backCenter {
+        position:relative;
+        top:calc(50% - 8pt);
+        /*background-color: khaki;*/
+        float:left;
+        width:270px;
+        font-family: Lato-Light, sans-serif;
+        font-size:12pt;
+        letter-spacing: 2px;
+    }
+
+    #backCenter span {
+        color:#990000;
+        font-family: Lato-Light, sans-serif;
+        font-size:12pt;
+        letter-spacing: 2px;
+    }
+
+    #backCenter a {
+        color: #333333;
+        font-family: Lato-Light, sans-serif;
+        font-size:12pt;
+        letter-spacing: 2px;
+    }
+
+    #backCenter a:hover {
+        text-decoration:none;
+        background-color:#990000;
+        color:#FFFFFF;
+    }
+
+}
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+/*************************************EXTRA SMALL SCREENS ABOVE - MOBILES BELOW*************************************************/
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+
+@media screen and (max-width: 535px) {
+
+    /**********************************************SECOND HEADLINE BELOW************************************************************/
+
+    #deskHomeLeft {
+        padding-left:0;
+    }
+
+    #deskHomeRight {
+        padding-right:0;
+    }
+
+    .SecondHeadSideLines {
+        height: 18pt;
+        /*background-color: lawngreen;*/
+    }
+
+    .SecondHeadSide {
+        /*background-color: lawngreen;*/
+        height: 18pt;
+        line-height: 18pt;
+        font-size: 18pt;
+        font-family: Lato-Light, sans-serif;
+    }
+
+    .SecondHeadSide p {
+        font-size: 18pt;
+        font-family: Lato-Light, sans-serif;
+    }
+
+    /**********************************************SPACE BELOW TITLE*********************************************************************/
+
+    #belowTitle {
+        height: 30px;
+        line-height: 30px;
+        /*background-color: red;*/
+    }
+
+    /******************************************************DESCRIPTION-BELOW************************************************************/
+
+    #deskCont {
+        width:90%;
+        font-family: Lato-Regular, sans-serif;
+        font-size:12pt;
+    }
+
+    #deskCont p {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #deskCont img {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    /**********************************************SPACE-BETWEEN-THUMBNAILS-PAGES-LINE*************************************************/
+
+    #betweenThumbnailsBack {
+        height:50px;
+        line-height: 50px;
+        /*background-color: salmon;*/
+    }
+
+    /*************************************************************BACK-BELOW***********************************************************/
+
+    #back {
+        height: 20px;
+        lineheight:20px;
+        margin: 0;
+        /*background-color: red;*/
+        padding-left:0;
+        padding-right:0;
+    }
+
+    .backSide {
+        height:20px;
+        line-height: 20px;
+        /*background-color: lawngreen;*/
+        float:left;
+        width:calc((100% - 270px) / 2);
+
+        position:relative;
+        top:calc(50% - 10px);
+    }
+
+    .backSide div {
+        position:relative;
+        top:50%;
+        border-bottom: solid #990000 1px;
+    }
+
+    #backCenter {
+        position:relative;
+        top:calc(50% - 8pt);
+        /*background-color: khaki;*/
+        float:left;
+        width:270px;
+
+    }
+
+    #backCenter span {
+        color:#990000;
+        font-family: Lato-Light, sans-serif;
+        font-size:11pt;
+        letter-spacing: 2px;
+    }
+
+    #backCenter a {
+        color: #333333;
+        font-family: Lato-Light, sans-serif;
+        font-size:11pt;
+        letter-spacing: 2px;
+    }
+
+    #backCenter a:hover {
+        text-decoration:none;
+        background-color:#990000;
+        color:#FFFFFF;
+    }
+
+}
+
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+/***********************************************GENERAL CSS BELOW***************************************************************/
+/*******************************************************************************************************************************/
+/*******************************************************************************************************************************/
+
+/**********************************************SECOND HEADLINE BELOW************************************************************/
+
+#deskHomeLeft {
+    /*background-color:red;*/
+    padding-right:0 !important;
+}
+
+#deskHomeCent {
+    padding-left: 0 !important;
+    padding-right: 0!important;
+    /*background-color:green;*/
+}
+
+#deskHomeRight {
+    /*background-color:red;*/
+    padding-left:0 !important;
+}
+
+.SecondHeadSideline {
+    line-height: 0;
+    border-bottom: 1px solid #990000;
+    top: 50%;
+    position: relative;
+}
+
+/******************************************************DESCRIPTION-BELOW************************************************************/
+
+#deskCont {
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#deskCont p {
+    text-align: justify !important;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#deskCont img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
